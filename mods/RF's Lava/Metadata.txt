@@ -1,0 +1,14 @@
+{
+	"Mod_Format": 1,
+	"Mod_Version": 11,
+	"Mod_CreatorName": "RuneFace",
+	"Mod_Name": "RF's Lava",
+	"Mod_Description": "",
+	"Files": [
+		"Metadata.txt",
+		"Assets/10/0",
+		"Assets/13/3",
+		"Assets/7/216",
+		"Assets/7/229"
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"Mod_Format": 1,
+	"Mod_Version": 232,
+	"Mod_CreatorName": "RuneFace",
+	"Mod_Name": "RF's LightSources",
+	"Mod_Description": "",
+	"Files": [
+		"Metadata.txt",
+		"Assets/1/0",
+		"Assets/1/11",
+		"Assets/1/16",
+		"Assets/1/2",
+		"Assets/1/24",
+		"Assets/1/25",
+		"Assets/1/3",
+		"Assets/1/5",
+		"Assets/1/7",
+		"Assets/1/8",
+		"Assets/10/0",
+		"Assets/10/51972",
+		"Assets/12/6291672",
+		"Assets/12/6422740",
+		"Assets/12/6553796",
+		"Assets/12/6553800",
+		"Assets/12/6553812",
+		"Assets/12/66979836",
+		"Assets/15/6",
+		"Assets/16/66979836",
+		"Assets/19/-1"
+	]
+}

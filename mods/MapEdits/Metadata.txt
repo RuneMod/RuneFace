@@ -1,0 +1,12 @@
+{
+	"Mod_Format": 1,
+	"Mod_Version": 11,
+	"Mod_CreatorName": "RuneFace",
+	"Mod_Name": "MapEdits",
+	"Mod_Description": "",
+	"Files": [
+		"Metadata.txt",
+		"Assets/10/0",
+		"Assets/16/66979836"
+	]
+}

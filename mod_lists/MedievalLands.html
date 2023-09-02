@@ -1,0 +1,41 @@
+   <style>
+      h1 {text-align: center;}
+      p {text-align: center;}
+      div {text-align: center;}
+   </style>
+
+
+<section class="section">
+  <div class="container">
+    <div class="box" style="width:300px">
+      <img id="myimage" src="">
+      <div class="is-clipped">
+        <div id="mytitle" class="has-text-weight-bold"></div>
+        <div id="mydescription" class="mt-2"></div>
+        <div id="myurl" class="mt-2 is-size-7"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <script>
+	  var data = { key: "123456", q: "https://www.google.com" };
+
+	fetch("https://api.linkpreview.net", {
+	  method: "POST",
+	  mode: "cors",
+	  body: JSON.stringify(data)
+	})
+	  .then((res) => res.json())
+	  .then((response) => {
+		document.getElementById("mytitle").innerHTML = response.title;
+		document.getElementById("mydescription").innerHTML = response.description;
+		document.getElementById("myimage").src = response.image;
+		document.getElementById("myurl").innerHTML = response.url;
+	  });
+  </script>
+
+
+

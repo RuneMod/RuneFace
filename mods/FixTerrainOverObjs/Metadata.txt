@@ -1,0 +1,12 @@
+{
+	"Mod_Format": 1,
+	"Mod_Version": 2,
+	"Mod_CreatorName": "RuneFace",
+	"Mod_Name": "FixTerrainOverObjs",
+	"Mod_Description": "",
+	"Files": [
+		"Metadata.txt",
+		"Assets/12/6553812",
+		"Assets/12/66979836"
+	]
+}

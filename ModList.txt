@@ -1,0 +1,238 @@
+{
+	"modSettings": [
+		{
+			"mod_CreatorName": "boss",
+			"mod_Name": "boss mod one",
+			"setting_LoadOrder": -1,
+			"setting_Loaded": false
+		},
+		{
+			"mod_CreatorName": "boss",
+			"mod_Name": "CrispWaters",
+			"setting_LoadOrder": -1,
+			"setting_Loaded": false
+		},
+		{
+			"mod_CreatorName": "boss",
+			"mod_Name": "EnhancedTextures",
+			"setting_LoadOrder": -1,
+			"setting_Loaded": false
+		},
+		{
+			"mod_CreatorName": "boss",
+			"mod_Name": "FixRoofsAndWalls",
+			"setting_LoadOrder": -1,
+			"setting_Loaded": false
+		},
+		{
+			"mod_CreatorName": "boss",
+			"mod_Name": "FixTerrainOverObjs",
+			"setting_LoadOrder": -1,
+			"setting_Loaded": false
+		},
+		{
+			"mod_CreatorName": "boss",
+			"mod_Name": "GroundBlending",
+			"setting_LoadOrder": -1,
+			"setting_Loaded": false
+		},
+		{
+			"mod_CreatorName": "boss",
+			"mod_Name": "hd grass models",
+			"setting_LoadOrder": -1,
+			"setting_Loaded": false
+		},
+		{
+			"mod_CreatorName": "boss",
+			"mod_Name": "Lights_example",
+			"setting_LoadOrder": -1,
+			"setting_Loaded": false
+		},
+		{
+			"mod_CreatorName": "boss",
+			"mod_Name": "MapEdits",
+			"setting_LoadOrder": -1,
+			"setting_Loaded": false
+		},
+		{
+			"mod_CreatorName": "boss",
+			"mod_Name": "MoodyWeather",
+			"setting_LoadOrder": -1,
+			"setting_Loaded": false
+		},
+		{
+			"mod_CreatorName": "boss",
+			"mod_Name": "NightTime",
+			"setting_LoadOrder": -1,
+			"setting_Loaded": false
+		},
+		{
+			"mod_CreatorName": "boss",
+			"mod_Name": "OverlaySoftening",
+			"setting_LoadOrder": -1,
+			"setting_Loaded": false
+		},
+		{
+			"mod_CreatorName": "boss",
+			"mod_Name": "RenderOrderFixes",
+			"setting_LoadOrder": -1,
+			"setting_Loaded": false
+		},
+		{
+			"mod_CreatorName": "boss",
+			"mod_Name": "RM's lava",
+			"setting_LoadOrder": -1,
+			"setting_Loaded": false
+		},
+		{
+			"mod_CreatorName": "boss",
+			"mod_Name": "RM's LightSources",
+			"setting_LoadOrder": -1,
+			"setting_Loaded": false
+		},
+		{
+			"mod_CreatorName": "boss",
+			"mod_Name": "TerrainTextures",
+			"setting_LoadOrder": -1,
+			"setting_Loaded": false
+		},
+		{
+			"mod_CreatorName": "boss",
+			"mod_Name": "WindEnabler",
+			"setting_LoadOrder": -1,
+			"setting_Loaded": false
+		},
+		{
+			"mod_CreatorName": "Default",
+			"mod_Name": "Default",
+			"setting_LoadOrder": 0,
+			"setting_Loaded": true
+		},
+		{
+			"mod_CreatorName": "LocalUser",
+			"mod_Name": "terrain mod one",
+			"setting_LoadOrder": -1,
+			"setting_Loaded": false
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "CrispWaters",
+			"setting_LoadOrder": 6,
+			"setting_Loaded": true
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "EnhancedTextures",
+			"setting_LoadOrder": 3,
+			"setting_Loaded": true
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "FixRoofsAndWalls",
+			"setting_LoadOrder": 10,
+			"setting_Loaded": true
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "FixTerrainOverObjs",
+			"setting_LoadOrder": 1,
+			"setting_Loaded": true
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "GroundBlending",
+			"setting_LoadOrder": 8,
+			"setting_Loaded": true
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "hd grass models",
+			"setting_LoadOrder": 7,
+			"setting_Loaded": false
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "Lights_example",
+			"setting_LoadOrder": 16,
+			"setting_Loaded": true
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "MapEdits",
+			"setting_LoadOrder": 14,
+			"setting_Loaded": true
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "MoodyWeather",
+			"setting_LoadOrder": 5,
+			"setting_Loaded": true
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "NightTime",
+			"setting_LoadOrder": 15,
+			"setting_Loaded": true
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "OverlaySoftening",
+			"setting_LoadOrder": 1,
+			"setting_Loaded": true
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "RenderOrderFixes",
+			"setting_LoadOrder": 11,
+			"setting_Loaded": true
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "RF's Lava",
+			"setting_LoadOrder": -1,
+			"setting_Loaded": false
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "RF's LightSources",
+			"setting_LoadOrder": 10,
+			"setting_Loaded": true
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "RF's Weather",
+			"setting_LoadOrder": 10,
+			"setting_Loaded": true
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "RM's lava",
+			"setting_LoadOrder": 9,
+			"setting_Loaded": true
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "RM's LightSources",
+			"setting_LoadOrder": 12,
+			"setting_Loaded": true
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "RuneFace mod one",
+			"setting_LoadOrder": 2,
+			"setting_Loaded": false
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "TerrainTextures",
+			"setting_LoadOrder": 2,
+			"setting_Loaded": false
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "WindEnabler",
+			"setting_LoadOrder": 3,
+			"setting_Loaded": true
+		}
+	]
+}

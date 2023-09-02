@@ -1,0 +1,20 @@
+{
+	"Mod_Format": 1,
+	"Mod_Version": 28,
+	"Mod_CreatorName": "RuneFace",
+	"Mod_Name": "RenderOrderFixes",
+	"Mod_Description": "",
+	"Files": [
+		"Metadata.txt",
+		"Assets/1/16",
+		"Assets/1/2",
+		"Assets/1/22",
+		"Assets/1/23",
+		"Assets/1/28",
+		"Assets/1/37",
+		"Assets/1/38",
+		"Assets/1/43",
+		"Assets/1/6",
+		"Assets/7/80"
+	]
+}
