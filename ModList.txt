@@ -164,12 +164,6 @@
 		},
 		{
 			"mod_CreatorName": "RuneFace",
-			"mod_Name": "MoodyWeather",
-			"setting_LoadOrder": 5,
-			"setting_Loaded": true
-		},
-		{
-			"mod_CreatorName": "RuneFace",
 			"mod_Name": "NightTime",
 			"setting_LoadOrder": 15,
 			"setting_Loaded": true
@@ -232,6 +226,12 @@
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "WindEnabler",
 			"setting_LoadOrder": 3,
+			"setting_Loaded": true
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "MoodyWeather",
+			"setting_LoadOrder": 5,
 			"setting_Loaded": true
 		}
 	]

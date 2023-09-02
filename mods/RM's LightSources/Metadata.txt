@@ -6,6 +6,8 @@
 	"Mod_Description": "",
 	"Mod_HomePage": "",
 	"Files": [
+		"index.html",
+		"ModPage.html",
 		"Assets/16/0",
 		"Assets/16/10811",
 		"Assets/16/10812",

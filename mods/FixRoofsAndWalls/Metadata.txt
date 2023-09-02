@@ -1,11 +1,11 @@
 {
 	"Mod_Format": 1,
-	"Mod_Version": 38,
+	"Mod_Version": 39,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "FixRoofsAndWalls",
 	"Mod_Description": "",
+	"Mod_HomePage": "",
 	"Files": [
-		"Metadata.txt",
 		"Assets/1/0",
 		"Assets/1/11",
 		"Assets/1/12",
@@ -15,6 +15,7 @@
 		"Assets/1/38",
 		"Assets/1/5",
 		"Assets/1/6",
-		"Assets/12/66979836"
+		"Assets/12/66979836",
+		"Metadata.txt"
 	]
 }
