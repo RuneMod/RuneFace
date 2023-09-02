@@ -4,7 +4,7 @@
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "RF's LightSources",
 	"Mod_Description": "",
-	"Mod_HomePage": "",
+	"Mod_HomePage": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RF's%20LightSources/ModPage.html",
 	"Files": [
 		"index.html",
 		"ModPage.html",

@@ -4,7 +4,7 @@
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "CrispWaters",
 	"Mod_Description": "",
-	"Mod_HomePage": "",
+	"Mod_HomePage": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/CrispWaters/ModPage.html",
 	"Files": [
 		"index.html",
 		"ModPage.html",
