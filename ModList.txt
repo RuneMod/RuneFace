@@ -44,12 +44,6 @@
 		},
 		{
 			"mod_CreatorName": "RuneFace",
-			"mod_Name": "MapEdits",
-			"setting_LoadOrder": 14,
-			"setting_Loaded": true
-		},
-		{
-			"mod_CreatorName": "RuneFace",
 			"mod_Name": "NightTime",
 			"setting_LoadOrder": 15,
 			"setting_Loaded": true
