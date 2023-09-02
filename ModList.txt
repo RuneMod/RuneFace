@@ -4,85 +4,99 @@
 			"mod_CreatorName": "Default",
 			"mod_Name": "Default",
 			"setting_LoadOrder": 0,
-			"setting_Loaded": true
+			"setting_Loaded": true,
+			"mod_Page": "https://raw.githack.com/RuneMod/Default/main/ModPage.html"
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "CrispWaters",
 			"setting_LoadOrder": 6,
-			"setting_Loaded": true
+			"setting_Loaded": true,
+			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/CrispWaters/ModPage.html"
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "EnhancedTextures",
 			"setting_LoadOrder": 3,
-			"setting_Loaded": true
+			"setting_Loaded": true,
+			"mod_Page": ""
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "FixRoofsAndWalls",
 			"setting_LoadOrder": 10,
-			"setting_Loaded": true
+			"setting_Loaded": true,
+			"mod_Page": ""
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "FixTerrainOverObjs",
 			"setting_LoadOrder": 1,
-			"setting_Loaded": true
+			"setting_Loaded": true,
+			"mod_Page": ""
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "GroundBlending",
 			"setting_LoadOrder": 8,
-			"setting_Loaded": true
+			"setting_Loaded": true,
+			"mod_Page": ""
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "hd grass models",
 			"setting_LoadOrder": 7,
-			"setting_Loaded": false
+			"setting_Loaded": false,
+			"mod_Page": ""
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "NightTime",
 			"setting_LoadOrder": 15,
-			"setting_Loaded": true
+			"setting_Loaded": true,
+			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/NightTime/ModPage.html"
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "OverlaySoftening",
 			"setting_LoadOrder": 1,
-			"setting_Loaded": true
+			"setting_Loaded": true,
+			"mod_Page": ""
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "RenderOrderFixes",
 			"setting_LoadOrder": 11,
-			"setting_Loaded": true
+			"setting_Loaded": true,
+			"mod_Page": ""
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "RF's Lava",
 			"setting_LoadOrder": 1,
-			"setting_Loaded": true
+			"setting_Loaded": true,
+			"mod_Page": ""
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "RF's LightSources",
 			"setting_LoadOrder": 10,
-			"setting_Loaded": true
+			"setting_Loaded": true,
+			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RF's%20LightSources/ModPage.html"
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "RF's Weather",
 			"setting_LoadOrder": 10,
-			"setting_Loaded": true
+			"setting_Loaded": true,
+			"mod_Page": "https://raw.githack.com/RuneMod/RF-s-Weather/main/ModPage.html"
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "WindEnabler",
 			"setting_LoadOrder": 3,
-			"setting_Loaded": true
+			"setting_Loaded": true,
+			"mod_Page": ""
 		}
 	]
 }
