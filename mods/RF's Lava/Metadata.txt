@@ -4,11 +4,14 @@
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "RF's Lava",
 	"Mod_Description": "",
+	"Mod_HomePage": "",
 	"Files": [
-		"Metadata.txt",
+		"index.html",
+		"ModPage.html",
 		"Assets/10/0",
 		"Assets/13/3",
 		"Assets/7/216",
-		"Assets/7/229"
+		"Assets/7/229",
+		"Metadata.txt"
 	]
 }

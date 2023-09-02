@@ -1,9 +1,0 @@
-{
-	"Mod_Format": 0,
-	"Mod_Version": 0,
-	"Mod_CreatorName": "RuneFace",
-	"Mod_Name": "TerrainTextures",
-	"Mod_Description": "",
-	"Mod_HomePage": "",
-	"Files": []
-}

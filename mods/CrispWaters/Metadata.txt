@@ -1,11 +1,14 @@
 {
 	"Mod_Format": 1,
-	"Mod_Version": 8,
+	"Mod_Version": 9,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "CrispWaters",
 	"Mod_Description": "",
+	"Mod_HomePage": "",
 	"Files": [
-		"Metadata.txt",
-		"Assets/18/0"
+		"index.html",
+		"ModPage.html",
+		"Assets/18/0",
+		"Metadata.txt"
 	]
 }

@@ -4,8 +4,10 @@
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "RF's LightSources",
 	"Mod_Description": "",
+	"Mod_HomePage": "",
 	"Files": [
-		"Metadata.txt",
+		"index.html",
+		"ModPage.html",
 		"Assets/1/0",
 		"Assets/1/11",
 		"Assets/1/16",
@@ -25,7 +27,7 @@
 		"Assets/12/6553812",
 		"Assets/12/66979836",
 		"Assets/15/6",
-		"Assets/16/66979836",
-		"Assets/19/-1"
+		"Assets/19/-1",
+		"Metadata.txt"
 	]
 }
