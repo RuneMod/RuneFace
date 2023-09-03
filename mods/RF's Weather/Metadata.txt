@@ -3,8 +3,9 @@
 	"Mod_Version": 345,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "RF's Weather",
-	"Mod_Description": "",
+	"Mod_Description": "Natural weather effects ayeyaey blublublblub oooo",
 	"Mod_HomePage": "https://raw.githack.com/RuneMod/RF-s-Weather/main/ModPage.html",
+	"Mod_Thumbnail": "",
 	"Files": [
 		"index.html",
 		"ModPage.html",
@@ -162,6 +163,7 @@
 		"Assets/16/14898",
 		"Assets/16/15153",
 		"Assets/16/15154",
+		"ModPage_files/ModPageThumbnail.png",
 		"Metadata.txt"
 	]
 }

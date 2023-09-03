@@ -1,18 +1,112 @@
 <!DOCTYPE html>
-
 <style>
+
+
+body {
+	    border: 15px solid #4b4945;
+
+		background: #4b4945;
+		max-width:100%
+}
+
+span { 
+   font-size: 3em; 
+   display: inline-block; }
+
+h5 {
+    color: #d8d8d8;
+    display: block;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: initial;
+    line-height: 1.2;
+    margin: 0 0 5px 0;
+    text-shadow: 0 0 2px rgba(0,0,0,0.4);
+    white-space: pre-wrap;
+
+}
+
+img {
+	height:auto;
+	max-width:100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	color: #c4c2be;
+    -webkit-box-orient: vertical;
+    display: block;
+    font-size: 13px;
+    -webkit-line-clamp: 6;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+	text-rendering: optimizeLegibility;
+    line-height: 1.3;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+}
+
+iframe {
+	height:auto;
+	max-width:100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+button {
+	color: #e5e4dc;
+	background-color: #424242;
+	font-size: 20px;
+	border: 3px solid #322f2f;
+	padding: 4px 100px;
+	cursor: pointer
+}
+
+button:hover {
+	color: #ffd22e;
+	background-color: #626060;
+}
+
+
+
 .parent {
 	display: grid;
 	grid-gap: 5px;
-	grid-template-columns: repeat(auto-fill, minmax(250px, 250px));
+	grid-template-columns: repeat(auto-fill, minmax(180px, 180px));
 	max-width: 1800px;
   }
   
-  .child {
-	height: 220px;
-	width: 250px;
-	background-color: brown;
-  }
+.child {
+height: 235px;
+width: 180px;
+background-color: #444441;
+border-style: solid;
+border-color: #333231;
+}
+
+.childImageContainer {
+height: 135px;
+width: 100%;
+}
+.fill {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.childTextContainer {
+	margin-left: 7px;
+	margin-right: 7px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
 </style>
 
 
@@ -30,19 +124,26 @@
 	<button onClick="popUp()" type="button" name="ImportThis">Import This Mod</button>
 
 	<div class="parent" id = "parent">
-    <div class="child"></div>
-    <div class="child"></div>
+		<!-- <div class="child" id = "child">
+			<div class="childImageContainer">
+				<div class="fill" style="background-image: url('ModThumbnailUrl');"></div>
+			</div>
+			<div class="childTextContainer">
+				<h5>ModName</h5>
+				<p>ModDescription</p>
+			</div>
+		</div> -->
   	</div>
+
 </body>
 </html>
 
 
 <script>
+	
 	//unreal recognises popup opening as an event. we can use this popup's url to download and import the mod int rm.
-	function popUp() { window.open(window.location.pathname,'popUp',"height=590,width=450,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=auto,resizable=yes,copyhistory=no"); }
 
-	//unreal recognises popup opening as an event. we can use this popup's url to download and import the mod int rm.
-	function expand() { window.open(window.location.pathname,'popUp',"height=590,width=450,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=auto,resizable=yes,copyhistory=no"); }
+	function popUp() { window.open(window.location.pathname,'popUp',"height=590,width=450,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=auto,resizable=yes,copyhistory=no"); }
 
 	let innerReturnFunction = ({res, myName}) => {
     /* this works */
@@ -59,29 +160,15 @@
 
 		var modPack_json = JSON.parse(data);
 
-		let container = document.getElementById('container');
-
 
 		//<iframe width="854" height="480" src="https://www.youtube.com/embed/83MYRPH8X_k" title="Project RuneMod" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 		for(let i = 0; i < modPack_json.modSettings.length; i++) {
-			//create div element
-			let element = document.createElement('div');
-			//set element html
 			var url = modPack_json.modSettings[i].mod_Page;
 
 			if(url === '') {continue;} //if mod_Page url is empty, skip this mod.
 
-			element.innerHTML = url;
-
-			container.appendChild(element);
-
-			anAsyncFunc(url);
-
-			element.style.cursor = 'pointer';
-			element.onclick = function() {
-				element.innerHTML = '';
-			};
+			generateModPagePreview(url);
 		}
 
 	}).catch(function (err) {
@@ -89,6 +176,41 @@
 		console.warn('Something went wrong.', err);
 	});
 
+	async function generateModPagePreview(url) {
+		
+		let response = await fetch(url);
+		let data = await response.text();
+
+		//figure out the root path
+		let page = url.split('/').pop();
+		var root = url.replaceAll(page, '');
+		
+		//replace all instance of relative path with the atcual url path
+		data = data.replaceAll('./', root);
+
+		let container = document.getElementById('parent');
+
+		//create div element
+		let element = document.createElement('div');
+			
+		var modPreviewHtml =	`<div class="child">
+									<div class="childImageContainer">
+										<div class="fill" style="background-image: url('ModThumbnailUrl');"></div>
+									</div>
+									<div class="childTextContainer">
+										<h5>ModName</h5>
+										<p>ModDescription</p>
+									</div>
+								</div>`;
+		element.innerHTML = modPreviewHtml;
+
+		element.style.cursor = 'pointer';
+			element.onclick = function() {
+				element.innerHTML = '';
+			};
+
+		container.appendChild(element);
+	}
 
 	async function anAsyncFunc(url) {
 		let response = await fetch(url);

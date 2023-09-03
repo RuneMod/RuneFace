@@ -1,0 +1,26 @@
+<script>
+//this script use a url in the following format: thispage?modPageUrl
+//it will load the url after the ? as a  rendered html doc
+
+console.log(window.location.search);
+
+console.log(window.location.search.split("?")[1]);
+urlToIframe(window.location.search.split("?")[1]);
+
+async function urlToIframe(url) {
+    //fetch data from the url
+    let response = await fetch(url);
+    let data = await response.text();
+
+    //figure out the root path
+    let page = url.split("/").pop();
+    var root = url.replaceAll(page, "");
+
+    //replace all instance of relative path with the atcual url path
+    data = data.replaceAll("./", root);
+
+    document.open();
+    document.write(data);
+    document.close();
+  }
+</script>

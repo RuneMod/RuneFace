@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    #modPageContainer_ClickOff {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    #modPageContainer {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80vw;
+      height: 90vh;
+      background-color: white;
+      z-index: 1;
+    }
+
+    #modPageContainer-iframe {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+  <body>
+    <button id="modPageContainer-button" data-modPageUrl="https://raw.githack.com/RuneMod/Default/main/ModPage.html"> Open modPageContainer </button>
+    <div id="modPageContainer_ClickOff"></div>
+    <div id="modPageContainer">
+      <iframe id="modPageContainer-iframe"></iframe>
+    </div>
+
+    <script>
+      const button = document.getElementById("modPageContainer-button");
+      const modPageContainer_ClickOff = document.getElementById("modPageContainer_ClickOff");
+      const modPageContainer = document.getElementById("modPageContainer");
+
+      const url = "a https... url";
+      //show the iframe
+      button.addEventListener("click", function (url) {
+        var url = this.getAttribute("data-modPageUrl");
+        modPageContainer_ClickOff.style.display = "block";
+        modPageContainer.style.display = "block";
+        urlToIframe(url);
+      });
+
+      //hide the iframe
+      modPageContainer_ClickOff.addEventListener("click", function () {
+        modPageContainer_ClickOff.style.display = "none";
+        modPageContainer.style.display = "none";
+      });
+
+      async function urlToIframe(url) {
+        //fetch data from the url
+        let response = await fetch(url);
+        let data = await response.text();
+
+        //figure out the root path
+        let page = url.split("/").pop();
+        var root = url.replaceAll(page, "");
+
+        //replace all instance of relative path with the atcual url path
+        data = data.replaceAll("./", root);
+
+        //put data in iframe
+        var iframe = document.getElementById("modPageContainer-iframe");
+
+        iframe.contentWindow.document.open();
+        iframe.contentWindow.document.write(data);
+        iframe.contentWindow.document.close();
+      }
+    </script>
+  </body>
+</html>
