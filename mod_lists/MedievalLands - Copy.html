@@ -1,4 +1,21 @@
 <!DOCTYPE html>
+
+<style>
+.parent {
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 250px));
+	max-width: 1800px;
+  }
+  
+  .child {
+	height: 220px;
+	width: 250px;
+	background-color: brown;
+  }
+</style>
+
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,11 +23,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Answer</title>
 </head>
+
 <body>
     <div id="container"></div>
 
-	<button onClick="popUp()"type="button" name="ImportThis">Import This Mod</button>
+	<button onClick="popUp()" type="button" name="ImportThis">Import This Mod</button>
 
+	<div class="parent" id = "parent">
+    <div class="child"></div>
+    <div class="child"></div>
+  	</div>
 </body>
 </html>
 
@@ -19,6 +41,14 @@
 	//unreal recognises popup opening as an event. we can use this popup's url to download and import the mod int rm.
 	function popUp() { window.open(window.location.pathname,'popUp',"height=590,width=450,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=auto,resizable=yes,copyhistory=no"); }
 
+	//unreal recognises popup opening as an event. we can use this popup's url to download and import the mod int rm.
+	function expand() { window.open(window.location.pathname,'popUp',"height=590,width=450,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=auto,resizable=yes,copyhistory=no"); }
+
+	let innerReturnFunction = ({res, myName}) => {
+    /* this works */
+    console.log(`hi from inner name: ${myName}`);
+    return {res, myName}; // return an object
+	}
 
 	fetch('https://raw.githubusercontent.com/RuneMod/RuneFace/master/ModList.txt').then(function (response) {
 	// The API call was successful!
@@ -32,45 +62,25 @@
 		let container = document.getElementById('container');
 
 
+		//<iframe width="854" height="480" src="https://www.youtube.com/embed/83MYRPH8X_k" title="Project RuneMod" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 		for(let i = 0; i < modPack_json.modSettings.length; i++) {
 			//create div element
 			let element = document.createElement('div');
 			//set element html
 			var url = modPack_json.modSettings[i].mod_Page;
+
+			if(url === '') {continue;} //if mod_Page url is empty, skip this mod.
+
 			element.innerHTML = url;
 
-			//insert element into div
 			container.appendChild(element);
 
-
-			//fetch the url and put the ocntents into the page. perhaps as a preview, that can be expanded/collapsed
-			fetch(url).then(function (response) {
-			return response.text();
-			}).then(function (data) {
-				//create iframe element
-				var iframe = document.createElement('iframe');
-
-				// div tag in which iframe will be added should have id attribute with value myDIV
-				document.getElementById("container").appendChild(iframe);
-
-				// provide height and width to it
-				iframe.setAttribute("style","height:100%;width:100%;");
-				iframe.contentWindow.document.open();
-				iframe.contentWindow.document.write(data);
-				iframe.contentWindow.document.close();
-
-				}).catch(function (err) {
-				// There was an error
-				console.warn('Something went wrong.', err);
-			});
-					
-
-
-    		//console.log(modPack_json.modSettings[i].mod_Page);
+			anAsyncFunc(url);
 
 			element.style.cursor = 'pointer';
 			element.onclick = function() {
-			element.innerHTML = '';
+				element.innerHTML = '';
 			};
 		}
 
@@ -80,9 +90,36 @@
 	});
 
 
+	async function anAsyncFunc(url) {
+		let response = await fetch(url);
+		let data = await response.text();
 
+		//figure out the root path
+		let page = url.split('/').pop();
+		var root = url.replaceAll(page, '');
+		
+		//replace all instance of relative path with the atcual url path
+		data = data.replaceAll('./', root);
+
+		var iframe = document.createElement('iframe');
+
+		// div tag in which iframe will be added should have id attribute with value myDIV
+		document.getElementById("parent").appendChild(iframe);
+
+		// provide height and width to it
+		iframe.setAttribute("height","100%");
+		iframe.setAttribute("width","100%");
+		iframe.setAttribute("class", "child");
+		iframe.contentWindow.document.open();
+		iframe.contentWindow.document.write(data);
+		iframe.contentWindow.document.close();
+
+		iframe.style.cursor = 'pointer';
+		iframe.onclick = function() {
+		console.log('iframe clicked');
+		// Expected output: "resolved"
+		}
+	}
 
 </script>
-
-
 

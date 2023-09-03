@@ -3,8 +3,9 @@
 	"Mod_Version": 163,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "NightTime",
-	"Mod_Description": "",
+	"Mod_Description": "Makes it look like it is night.",
 	"Mod_HomePage": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/NightTime/ModPage.html",
+	"Mod_Thumbnail": "",
 	"Files": [
 		"index.html",
 		"ModPage.html",
@@ -28,6 +29,7 @@
 		"Assets/7/32",
 		"Assets/7/33",
 		"Assets/7/54",
+		"ModPage_files/ModPageThumbnail.png",
 		"Metadata.txt"
 	]
 }
