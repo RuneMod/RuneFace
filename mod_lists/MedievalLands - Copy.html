@@ -8,20 +8,81 @@
 </head>
 <body>
     <div id="container"></div>
+
+	<button onClick="popUp()"type="button" name="ImportThis">Import This Mod</button>
+
 </body>
 </html>
 
 
 <script>
-	let container = document.getElementById('container');
-		for (let i = 0; i <= 10; i++) {
-			let element = document.createElement('div');
-			element.innerHTML = "mod"+i;
-			container.appendChild(element);
-		};
-	console.log(container);
-</script>
+	//unreal recognises popup opening as an event. we can use this popup's url to download and import the mod int rm.
+	function popUp() { window.open(window.location.pathname,'popUp',"height=590,width=450,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=auto,resizable=yes,copyhistory=no"); }
 
+
+	fetch('https://raw.githubusercontent.com/RuneMod/RuneFace/master/ModList.txt').then(function (response) {
+	// The API call was successful!
+	return response.text();
+	}).then(function (data) {
+
+		//document.getElementById('container').innerHTML = data;
+
+		var modPack_json = JSON.parse(data);
+
+		let container = document.getElementById('container');
+
+
+		for(let i = 0; i < modPack_json.modSettings.length; i++) {
+			//create div element
+			let element = document.createElement('div');
+			//set element html
+			var url = modPack_json.modSettings[i].mod_Page;
+			element.innerHTML = url;
+
+			//insert element into div
+			container.appendChild(element);
+
+
+			//fetch the url and put the ocntents into the page. perhaps as a preview, that can be expanded/collapsed
+			fetch(url).then(function (response) {
+			return response.text();
+			}).then(function (data) {
+				//create iframe element
+				var iframe = document.createElement('iframe');
+
+				// div tag in which iframe will be added should have id attribute with value myDIV
+				document.getElementById("container").appendChild(iframe);
+
+				// provide height and width to it
+				iframe.setAttribute("style","height:100%;width:100%;");
+				iframe.contentWindow.document.open();
+				iframe.contentWindow.document.write(data);
+				iframe.contentWindow.document.close();
+
+				}).catch(function (err) {
+				// There was an error
+				console.warn('Something went wrong.', err);
+			});
+					
+
+
+    		//console.log(modPack_json.modSettings[i].mod_Page);
+
+			element.style.cursor = 'pointer';
+			element.onclick = function() {
+			element.innerHTML = '';
+			};
+		}
+
+	}).catch(function (err) {
+		// There was an error
+		console.warn('Something went wrong.', err);
+	});
+
+
+
+
+</script>
 
 
 

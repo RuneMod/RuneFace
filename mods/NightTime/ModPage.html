@@ -40,20 +40,18 @@ iframe {
 	margin-right: auto;
 }
 
-.button {
-  border: none;
-  background-color: #373533;
-  color: white;
-  padding: 8px 28px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  font-family: Georgia;
-  margin: -5px -5px;
-  cursor: pointer;
-  border-radius: 8px;
-  float: right;
-  background-color: #373533;
+button {
+	color: #e5e4dc;
+	background-color: #424242;
+	font-size: 20px;
+	border: 3px solid #322f2f;
+	padding: 4px 100px;
+	cursor: pointer
+}
+
+button:hover {
+	color: #ffd22e;
+	background-color: #626060;
 }
 </style>
 </head>
@@ -63,3 +61,9 @@ iframe {
 <br>
 <br>
 <h3>Makes it look like it is night.</h3>
+<button onClick="popUp()" type="button" name="ImportThis">Import This Mod</button>
+
+
+<script>
+	function popUp() { window.open(window.location.pathname,'popUp',"height=590,width=450,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=auto,resizable=yes,copyhistory=no"); }
+</script>

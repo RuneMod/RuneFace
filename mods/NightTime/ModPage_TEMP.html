@@ -25,39 +25,45 @@ h3 {
 }
 
 img {
-	max-width:auto;
 	height:auto;
 	max-width:100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 iframe {
-	max-width:auto; max-height:auto;
+	height:auto;
 	max-width:100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.button {
-  border: none;
-  background-color: #373533;
-  color: white;
-  padding: 8px 28px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  font-family: Georgia;
-  margin: -5px -5px;
-  cursor: pointer;
-  border-radius: 8px;
-  float: right;
-  background-color: #373533;
+button {
+	color: #e5e4dc;
+	background-color: #424242;
+	font-size: 20px;
+	border: 3px solid #322f2f;
+	padding: 4px 100px;
+	cursor: pointer
+}
+
+button:hover {
+	color: #ffd22e;
+	background-color: #626060;
 }
 </style>
 </head>
 <span style="color: #fa9b62; font-size: 27px;">NightTime</span>
-<span style="font-size: 10px;">V160</span>
+<span style="font-size: 10px;">V162</span>
 <span style="font-size: 14px;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Author/s: RuneFace</span>
 <br>
 <br>
-<p>1Input your text here</p>
-<h3>2 Input your text here</h3>
-<p>3
-</p>
+<h3>Makes it look like it is night.</h3>
+<button onClick="popUp()" type="button" name="ImportThis">Import This Mod</button>
+
+
+<script>
+	function popUp() { window.open(window.location.pathname,'popUp',"height=590,width=450,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=auto,resizable=yes,copyhistory=no"); }
+</script>
