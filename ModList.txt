@@ -5,7 +5,7 @@
 			"mod_Name": "Default",
 			"setting_LoadOrder": 0,
 			"setting_Loaded": true,
-			"mod_Page": "https://raw.githack.com/RuneMod/Default/main/ModPage.html"
+			"mod_Page": "https://raw.githubusercontent.com/RuneMod/Default/main/ModPage.html"
 		},
 		{
 			"mod_CreatorName": "RuneFace",

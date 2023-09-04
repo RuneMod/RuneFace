@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <style>
-
-
 body {
 	    border: 15px solid #4b4945;
 
@@ -11,20 +9,7 @@ body {
 
 span { 
    font-size: 3em; 
-   display: inline-block; }
-
-h5 {
-    color: #d8d8d8;
-    display: block;
-    font-family: 'Roboto',sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    letter-spacing: initial;
-    line-height: 1.2;
-    margin: 0 0 5px 0;
-    text-shadow: 0 0 2px rgba(0,0,0,0.4);
-    white-space: pre-wrap;
-
+   display: inline-block;
 }
 
 img {
@@ -41,7 +26,6 @@ p {
     display: block;
     font-size: 13px;
     -webkit-line-clamp: 6;
-    margin: 0;
     overflow: hidden;
     text-overflow: ellipsis;
 
@@ -74,6 +58,18 @@ button:hover {
 }
 
 
+/* ModPreview Stuff */
+h5 {
+    color: #d8d8d8;
+    display: block;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: initial;
+    line-height: 1.2;
+    text-shadow: 0 0 2px rgba(0,0,0,0.4);
+    white-space: pre-wrap;
+}
 
 .parent {
 	display: grid;
@@ -94,6 +90,7 @@ border-color: #333231;
 height: 135px;
 width: 100%;
 }
+
 .fill {
     background-size: cover;
     background-position: center;
@@ -107,32 +104,45 @@ width: 100%;
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
+
+/* ModPageView Stuff */
+#modPageContainer_ClickOff {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+}
+
+#modPageContainer {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80vw;
+	height: 90vh;
+	background-color: white;
+	z-index: 1;
+}
+
+#modPageView-iframe {
+	width: 100%;
+	height: 100%;
+}
 </style>
 
-
-<html lang="en">
-<head>
-	<title>NightTime</title>
-	<meta name="description" content="Makes it look like it is night.">
-  
-	<meta property="og:url" content="https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/NightTime/">
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="NightTime">
-	<meta property="og:description" content="Makes it look like it is night.">
-	<meta property="og:image" content="https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/NightTime/ModPage_files/ModPageThumbnail.png">
-  
-  
-	<meta name="twitter:card" content="summary_large_image">
-	<meta property="twitter:url" content="https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/NightTime/">
-	<meta name="twitter:title" content="NightTime">
-	<meta name="twitter:description" content="Makes it look like it is night.">
-	<meta name="twitter:image" content="https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/NightTime/ModPage_files/ModPageThumbnail.png">
-</head>
-
 <body>
-    <div id="container"></div>
+	<!-- modPageViewer -->
+    <div id="modPageContainer_ClickOff"></div>
+    <div id="modPageContainer">
+      <iframe id="modPageView-iframe"></iframe>
+    </div>
 
-	<button onClick="popUp()" type="button" name="ImportThis">Import This Mod</button>
+	<!-- ModPreviewGrid -->
+    <div id="container"></div>
 
 	<div class="parent" id = "parent">
 		<!-- <div class="child" id = "child">
@@ -140,8 +150,8 @@ width: 100%;
 				<div class="fill" style="background-image: url('ModThumbnailUrl');"></div>
 			</div>
 			<div class="childTextContainer">
-				<h5>ModName</h5>
-				<p>ModDescription</p>
+				<h5 style="margin: 0 0 5px 0;">ModName</h5>
+				<p style="margin: 0 0 5px 0;">ModDescription</p>
 			</div>
 		</div> -->
   	</div>
@@ -160,10 +170,6 @@ width: 100%;
 		}
 		return null;
 	}
-
-	//unreal recognises popup opening as an event. we can use this popup's url to download and import the mod int rm.
-
-	function popUp() { window.open(window.location.pathname,'popUp',"height=590,width=450,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=auto,resizable=yes,copyhistory=no"); }
 
 	let innerReturnFunction = ({res, myName}) => {
     /* this works */
@@ -218,8 +224,8 @@ width: 100%;
 										<div class="fill" style="background-image: url('ModThumbnailUrl');"></div>
 									</div>
 									<div class="childTextContainer">
-										<h5>ModName</h5>
-										<p>ModDescription</p>
+										<h5 style="margin: 0 0 5px 0;">ModName</h5>
+										<p style="margin: 0 0 5px 0;">ModDescription</p>
 									</div>
 								</div>`;
 
@@ -238,44 +244,51 @@ width: 100%;
 
 	
 		element.innerHTML = modPreviewHtml;
+		element.setAttribute('data-modPageUrl', url);
 
 		element.style.cursor = 'pointer';
 			element.onclick = function() {
-				element.innerHTML = '';
+				var url = this.getAttribute("data-modPageUrl");
+			
+				const button = document.getElementById("modPageContainer-button");
+				const modPageContainer_ClickOff = document.getElementById("modPageContainer_ClickOff");
+				const modPageContainer = document.getElementById("modPageContainer");
+
+				modPageContainer_ClickOff.style.display = "block";
+				modPageContainer.style.display = "block";
+
+				setModPageViewUrl(url);
+
 			};
 
 		container.appendChild(element);
 	}
 
-	async function anAsyncFunc(url) {
-		let response = await fetch(url);
-		let data = await response.text();
+	//Exit ModPageView
+	modPageContainer_ClickOff.addEventListener("click", function () {
+        modPageContainer_ClickOff.style.display = "none";
+        modPageContainer.style.display = "none";
+    });
 
-		//figure out the root path
-		let page = url.split('/').pop();
-		var root = url.replaceAll(page, '');
-		
-		//replace all instance of relative path with the atcual url path
-		data = data.replaceAll('./', root);
+	//Set ModPageView iframe to dsiplay data from a specific url
+	async function setModPageViewUrl(url) {
+        //fetch data from the url
+        let response = await fetch(url);
+        let data = await response.text();
 
-		var iframe = document.createElement('iframe');
+        //figure out the root path
+        let page = url.split("/").pop();
+        var root = url.replaceAll(page, "");
 
-		// div tag in which iframe will be added should have id attribute with value myDIV
-		document.getElementById("parent").appendChild(iframe);
+        //replace all instance of relative path with the atcual url path
+        data = data.replaceAll("./", root);
 
-		// provide height and width to it
-		iframe.setAttribute("height","100%");
-		iframe.setAttribute("width","100%");
-		iframe.setAttribute("class", "child");
-		iframe.contentWindow.document.open();
-		iframe.contentWindow.document.write(data);
-		iframe.contentWindow.document.close();
+        //put data in iframe
+        var iframe = document.getElementById("modPageView-iframe");
 
-		iframe.style.cursor = 'pointer';
-		iframe.onclick = function() {
-		console.log('iframe clicked');
-		// Expected output: "resolved"
-		}
+        iframe.contentWindow.document.open();
+        iframe.contentWindow.document.write(data);
+        iframe.contentWindow.document.close();
 	}
 
 </script>
