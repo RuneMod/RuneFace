@@ -2,7 +2,7 @@
 	"Mod_Format": 1,
 	"Mod_Version": 232,
 	"Mod_CreatorName": "RuneFace",
-	"Mod_Name": "RF's LightSources",
+	"Mod_Name": "RFs LightSources",
 	"Mod_Description": "Add light source to rs. Nuffin more to it.",
 	"Mod_HomePage": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RFs%20LightSources/ModPage.html",
 	"Mod_Thumbnail": "",
