@@ -3,87 +3,109 @@
   <meta name="description" content="Makes it look like it is night.">
 
 
-  <meta property="og:url" content="https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/NightTime/">
+  <meta property="og:url" content="https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/NightTime/ModPage.html">
   <meta property="og:type" content="website">
   <meta property="og:title" content="NightTime">
   <meta property="og:description" content="Makes it look like it is night.">
   <meta property="og:image" content="https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/NightTime/ModPage_files/ModPageThumbnail.png">
 
+  <meta property="og:creator" content="RuneFace">
+
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/NightTime/">
+  <meta property="twitter:url" content="https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/NightTime/ModPage.html">
   <meta name="twitter:title" content="NightTime">
   <meta name="twitter:description" content="Makes it look like it is night.">
   <meta name="twitter:image" content="https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/NightTime/ModPage_files/ModPageThumbnail.png">
 <style>
 
-html {
-	font-size: 14px;
-	font-family: Georgia;
-	background: #373534;
-    margin:    0 auto;
-    max-width: 900px;
-	color: #c4c0b2;
-}
-
-body {
-	    border: 15px solid #4b4945;
-
-		background: #4b4945;
-		max-width:100%
-}
-
-span { 
-   font-size: 3em; 
-   display: inline-block; }
-
-h3 {
-	color: #f29268;
-}
-
-img {
-	height:auto;
-	max-width:100%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-iframe {
-	height:auto;
-	max-width:100%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-button {
-	color: #e5e4dc;
-	background-color: #424242;
-	font-size: 20px;
-	border: 3px solid #322f2f;
-	padding: 4px 100px;
-	cursor: pointer
-}
-
-button:hover {
-	color: #ffd22e;
-	background-color: #626060;
-}
-
+  html {
+	  font-size: 14px;
+	  font-family: Georgia;
+	  background: #373534;
+	  margin:    0 auto;
+	  max-width: 900px;
+	  color: #c4c0b2;
+  }
+  
+  body {
+		  border: 15px solid #4b4945;
+  
+		  background: #4b4945;
+		  max-width:100%
+  }
+  
+  span { 
+	 font-size: 3em; 
+	 display: inline-block; }
+  
+  h3 {
+	  color: #f29268;
+  }
+  
+  img {
+	  height:auto;
+	  max-width:100%;
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+  }
+  
+  iframe {
+	  height:auto;
+	  max-width:100%;
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+  }
+  
+  buttonOne {
+	  color: #e5e4dc;
+	  background-color: #424242;
+	  font-size: 20px;
+	  border: 3px solid #322f2f;
+	  cursor: pointer;
+	  text-align: right;
+	  padding: 7px;
+  
+	  margin-left: -40px;
+  }
+  
+  buttonOne:hover {
+	  color: #ffd22e;
+	  background-color: #626060;
+  }
+  
 </style>
 </head>
+
+  <buttonOne onClick="copyUrlToClipBoard()" type="button" id="ImportButton">Download And Import</buttonOne>
+  <br>
+  <br>
+  <br>
 <span style="color: #fa9b62; font-size: 27px;">NightTime</span>
 <span style="font-size: 10px;">V163</span>
-<span style="font-size: 14px;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Author/s: RuneFace</span>
+<span style="font-size: 14px;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp By: RuneFace</span>
 <br>
 <br>
 <p>A bunch night-time weatherdefinition defintions. these definitions are painted  across most areas of the rs.</p>
-<br>
-<br>
-<button onClick="popUp()" type="button" name="ImportThis">Import This Mod</button>
 
-
-<script>
-	function popUp() { window.open(window.location.pathname,'popUp',"height=590,width=450,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=auto,resizable=yes,copyhistory=no"); }
-</script>
+  <script>
+	  function copyUrlToClipBoard() { 
+		  const url = getMetaElement(document, 'property', 'og:url');
+		  // Copy the text inside the text field
+		  navigator.clipboard.writeText(url);
+		  var importButton = document.getElementById("ImportButton");
+		  importButton.innerText = "Copied url to clipboard! Now paste it into runemod's mod importer."
+	   }
+  
+	   function getMetaElement(doc, attribute, value) {
+		  var selected = doc.querySelector(`meta[${attribute}="${value}"]`);
+		  if(selected) {
+			  if(selected.content) {
+				  return selected.content;
+			  }
+		  }
+		  return null;
+	  }
+  </script>
