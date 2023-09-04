@@ -5,7 +5,6 @@
 	"Mod_Name": "NightTime",
 	"Mod_Description": "Makes it look like it is night.",
 	"Mod_HomePage": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/NightTime/ModPage.html",
-	"Mod_Thumbnail": "",
 	"Files": [
 		"index.html",
 		"ModPage.html",

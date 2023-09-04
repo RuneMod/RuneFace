@@ -264,7 +264,7 @@ width: 100%;
 		const ModName = getMetaElement(doc, 'property', 'og:title');
 		const ModDescription = getMetaElement(doc, 'property', 'og:description');
 		const ModThumbnailUrl = getMetaElement(doc, 'property', 'og:image');
-		const ModCreator = "RuneFace";
+		const ModCreator = getMetaElement(doc, 'property', 'og:creator');
 		modPreviewHtml = modPreviewHtml.replace('ModName', ModName);
 		modPreviewHtml = modPreviewHtml.replace('ModDescription', ModDescription);
 		modPreviewHtml = modPreviewHtml.replace('ModThumbnailUrl', ModThumbnailUrl);

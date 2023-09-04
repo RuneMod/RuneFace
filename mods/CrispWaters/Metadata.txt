@@ -5,7 +5,6 @@
 	"Mod_Name": "CrispWaters",
 	"Mod_Description": "More realistic waters. Crisp and fresh like morning dew.",
 	"Mod_HomePage": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/CrispWaters/ModPage.html",
-	"Mod_Thumbnail": "",
 	"Files": [
 		"index.html",
 		"ModPage.html",
