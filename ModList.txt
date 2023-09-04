@@ -73,21 +73,21 @@
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "RFs Lava",
-			"setting_LoadOrder": -1,
+			"setting_LoadOrder": 2,
 			"setting_Loaded": false,
 			"mod_Page": ""
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "RFs LightSources",
-			"setting_LoadOrder": 1,
+			"setting_LoadOrder": 2,
 			"setting_Loaded": true,
 			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RFs%20LightSources/ModPage.html"
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "RFs Weather",
-			"setting_LoadOrder": -1,
+			"setting_LoadOrder": 2,
 			"setting_Loaded": false,
 			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RFs%20Weather/ModPage.html"
 		},
