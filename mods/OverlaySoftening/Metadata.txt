@@ -4,10 +4,28 @@
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "OverlaySoftening",
 	"Mod_Description": "",
+	"Mod_HomePage": "",
 	"Files": [
-		"Metadata.txt",
+		"index.html",
+		"ModPage.html",
 		"Assets/12/6553812",
 		"Assets/12/66979836",
-		"Assets/18/0"
+		"Assets/18/0",
+		"ModPage_files/ModPageThumbnail.png",
+		"Metadata.txt"
+	],
+	"Dependencies": [
+		{
+			"Mod_Name": "OverlaySoftening",
+			"Mod_CreatorName": "RuneFace",
+			"Setting_LoadOrder": 1,
+			"Mod_Page": ""
+		},
+		{
+			"Mod_Name": "NightTime",
+			"Mod_CreatorName": "RuneFace",
+			"Setting_LoadOrder": 15,
+			"Mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/NightTime/ModPage.html"
+		}
 	]
 }
