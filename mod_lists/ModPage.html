@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<body>
+	<!-- modPageViewer -->
+    <div id="modPageContainer_ClickOff"></div>
+    <div id="modPageContainer">
+    <iframe id="modPageView-iframe"></iframe>
+    </div>
+
+	<div id="anchor">
+		<!-- <div class="rowContainer" id="AllPreviews">
+			<div style="margin-right: 40px;">
+				<p style="margin-bottom: -3px;">This mod: </p>
+				<div class='parent' id="thisMod">
+				</div>
+			</div>
+
+			<div style="width: 100%; margin-left: 40px; margin-right: 40px; align-self: center;">
+				<p style="margin-bottom: -3px;">This mod's dependencies: </p>
+				<div style="justify-content: left;" class='parent' id="dependencies"></div>
+			</div>
+		</div>
+
+		<br>
+		<br>
+		<br>
+		<p style="margin-bottom: -3px;">About this mod: </p>
+		<div class = "description" id ="content_container">
+		</div>
+		<br>
+		<button class="downloadButton" id="downloadButton" onclick="copyUrlToClipBoard(this)" type="button" id="ImportButton">Download this mod</button> -->
+	</div>
+
+	<!-- ModPreviewGrid -->
+	<!-- <div class="parent" id = "parent">
+		<div class="child_Normal" id = "child_Normal">
+			<div class="childImageContainer">
+				<div class="fill" style="background-image: url('ModThumbnailUrl');"><ByText>ModCreator</ByText></div>
+			</div>
+			<div class="childTextContainer">
+				<h5 style="margin: 0 0 5px 0;">ModName</h5>
+				<p style="margin: 0 0 5px 0;">ModDescription</p>
+			</div>
+		</div>
+  	</div> -->
+
+</body>
+</html>
+
+<script src="ModPageViewer.js"></script>
+
+<script>         // Get HTML head element, and set it's style;
+	var ModPageUrl_ = "./ModPage.html"; //see if we can setup an actual mod page to use js. maybe we can use ./ as the input url, so that file can be viewed before upload.
+
+	generateModPageView(ModPageUrl_);
+</script>

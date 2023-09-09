@@ -36,16 +36,18 @@
     </div>
 
     <script>
-      const button = document.getElementById("modPageContainer-button");
-      const modPageContainer_ClickOff = document.getElementById("modPageContainer_ClickOff");
-      const modPageContainer = document.getElementById("modPageContainer");
-
-      const url = "a https... url";
       //show the iframe
-      button.addEventListener("click", function (url) {
+        button.addEventListener("click", function (url) {
+        const button = document.getElementById("modPageContainer-button");
+        const modPageContainer_ClickOff = document.getElementById("modPageContainer_ClickOff");
+        const modPageContainer = document.getElementById("modPageContainer");
+
         var url = this.getAttribute("data-modPageUrl");
+
         modPageContainer_ClickOff.style.display = "block";
         modPageContainer.style.display = "block";
+
+        //write data at url to the modPageContainer-iframe.
         urlToIframe(url);
       });
 
