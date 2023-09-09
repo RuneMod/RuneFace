@@ -11,5 +11,13 @@
 		"Assets/18/0",
 		"ModPage_files/ModPageThumbnail.png",
 		"Metadata.txt"
+	],
+	"Dependencies": [
+		{
+			"Mod_Name": "RFs Weather",
+			"Mod_CreatorName": "RuneFace",
+			"Setting_LoadOrder": 2,
+			"Mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RFs%20Weather/ModPage.html"
+		}
 	]
 }

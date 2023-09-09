@@ -164,5 +164,13 @@
 		"Assets/16/15154",
 		"ModPage_files/ModPageThumbnail.png",
 		"Metadata.txt"
+	],
+	"Dependencies": [
+		{
+			"Mod_Name": "Default",
+			"Mod_CreatorName": "Default",
+			"Setting_LoadOrder": 0,
+			"Mod_Page": "https://raw.githubusercontent.com/RuneMod/Default/main/ModPage.html"
+		}
 	]
 }
