@@ -34,12 +34,6 @@
 	],
 	"Dependencies": [
 		{
-			"Mod_Name": "NightTime",
-			"Mod_CreatorName": "RuneFace",
-			"Setting_LoadOrder": 15,
-			"Mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/NightTime/ModPage.html"
-		},
-		{
 			"Mod_Name": "RFs LightSources",
 			"Mod_CreatorName": "RuneFace",
 			"Setting_LoadOrder": 2,
