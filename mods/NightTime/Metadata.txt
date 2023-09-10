@@ -29,7 +29,9 @@
 		"Assets/7/32",
 		"Assets/7/33",
 		"Assets/7/54",
-		"ModPage_files/2023-09-04 00_03_56-RuneModWin.png",
+		"ModPage_files/2023-09-04 00_01_59-Rune ModWin.png",
+		"ModPage_files/2023-09-04 01_55_43-Mod Lists.png",
+		"ModPage_files/214911-200.png",
 		"ModPage_files/ModPageThumbnail.png",
 		"Metadata.txt"
 	],
