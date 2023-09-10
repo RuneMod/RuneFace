@@ -3,9 +3,11 @@
 	"Mod_Version": 15,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "hd grass models",
-	"Mod_Description": "",
+	"Mod_Description": "An earthy and  realistic style of grass",
+	"Mod_HomePage": "",
 	"Files": [
-		"Metadata.txt",
+		"index.html",
+		"ModPage.html",
 		"Assets/1/6",
 		"Assets/13/2",
 		"Assets/7/68",
@@ -47,6 +49,17 @@
 		"Assets_Source/resource/textures/.autosave/texture_processing_2.sbs",
 		"Assets_Source/resource/textures/.autosave/texture_processing_3.sbs",
 		"Assets_Source/resource/textures/.autosave/texture_processing_4.sbs",
-		"Assets_Source/resource/textures/.autosave/texture_processing_5.sbs"
+		"Assets_Source/resource/textures/.autosave/texture_processing_5.sbs",
+		"ModPage_files/2023-09-09 22_43_11-single blad of grass - Google Search.png",
+		"ModPage_files/ModPageThumbnail.png",
+		"Metadata.txt"
+	],
+	"Dependencies": [
+		{
+			"Mod_Name": "Default",
+			"Mod_CreatorName": "Default",
+			"Setting_LoadOrder": 0,
+			"Mod_Page": "https://raw.githubusercontent.com/RuneMod/Default/main/ModPage.html"
+		}
 	]
 }
