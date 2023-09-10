@@ -5,7 +5,7 @@
 	"Mod_Name": "NightTime",
 	"Mod_Description": "Makes it look like it is night.",
 	"Mod_HomePage": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/NightTime/ModPage.html",
-	"Mod_DefaultLoadOrder": 15,
+	"Mod_DefaultLoadOrder": 12,
 	"Files": [
 		"index.html",
 		"ModPage.html",
@@ -29,7 +29,6 @@
 		"Assets/7/32",
 		"Assets/7/33",
 		"Assets/7/54",
-		"ModPage_files/2023-09-04 00_03_56-RuneModWin.png",
 		"ModPage_files/ModPageThumbnail.png",
 		"Metadata.txt"
 	],

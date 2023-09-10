@@ -51,13 +51,6 @@
 		},
 		{
 			"mod_CreatorName": "RuneFace",
-			"mod_Name": "NightTime",
-			"setting_LoadOrder": 15,
-			"setting_Loaded": true,
-			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/NightTime/ModPage.html"
-		},
-		{
-			"mod_CreatorName": "RuneFace",
 			"mod_Name": "OverlaySoftening",
 			"setting_LoadOrder": 1,
 			"setting_Loaded": true,
@@ -97,6 +90,13 @@
 			"setting_LoadOrder": 3,
 			"setting_Loaded": true,
 			"mod_Page": ""
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "NightTime",
+			"setting_LoadOrder": 12,
+			"setting_Loaded": true,
+			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/NightTime/ModPage.html"
 		}
 	]
 }
