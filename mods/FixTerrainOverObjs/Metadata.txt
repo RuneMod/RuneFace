@@ -1,12 +1,20 @@
 {
 	"Mod_Format": 1,
-	"Mod_Version": 2,
+	"Mod_Version": 5,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "FixTerrainOverObjs",
 	"Mod_Description": "",
+	"Mod_HomePage": "",
+	"Mod_DefaultLoadOrder": 0,
 	"Files": [
-		"Metadata.txt",
-		"Assets/12/6553812",
-		"Assets/12/66979836"
-	]
+		"Assets/12/-8589672448",
+		"Assets/12/25680",
+		"Assets/12/25688",
+		"Assets/12/25696",
+		"Assets/12/25704",
+		"Assets/12/25712",
+		"Assets/12/25720",
+		"Metadata.txt"
+	],
+	"Dependencies": []
 }

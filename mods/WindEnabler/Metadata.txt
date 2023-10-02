@@ -1,16 +1,15 @@
 {
 	"Mod_Format": 1,
-	"Mod_Version": 63,
+	"Mod_Version": 66,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "WindEnabler",
 	"Mod_Description": "",
+	"Mod_HomePage": "",
+	"Mod_DefaultLoadOrder": 0,
 	"Files": [
-		"Metadata.txt",
-		"README.html",
-		"README_TEMP.html",
 		"Assets/13/0",
-		"Assets/13/2",
-		"Assets/13/3",
+		"Assets/13/25769803772",
+		"Assets/13/25769803773",
 		"Assets/7/121",
 		"Assets/7/127",
 		"Assets/7/128",
@@ -27,6 +26,8 @@
 		"Assets/7/636",
 		"Assets/7/68",
 		"Assets/7/70",
-		"Assets/7/86"
-	]
+		"Assets/7/86",
+		"Metadata.txt"
+	],
+	"Dependencies": []
 }

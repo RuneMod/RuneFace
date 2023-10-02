@@ -1,16 +1,16 @@
 {
 	"Mod_Format": 1,
-	"Mod_Version": 44,
+	"Mod_Version": 46,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "GroundBlending",
 	"Mod_Description": "",
+	"Mod_HomePage": "",
+	"Mod_DefaultLoadOrder": 0,
 	"Files": [
-		"Metadata.txt",
-		"README_TEMP.html",
-		"Assets/12/66979836",
+		"Assets/12/-8589672448",
 		"Assets/13/0",
-		"Assets/13/2",
-		"Assets/13/3",
+		"Assets/13/25769803772",
+		"Assets/13/25769803773",
 		"Assets/7/103",
 		"Assets/7/12",
 		"Assets/7/125",
@@ -25,6 +25,8 @@
 		"Assets/7/273",
 		"Assets/7/33",
 		"Assets/7/400",
-		"Assets/7/471"
-	]
+		"Assets/7/471",
+		"Metadata.txt"
+	],
+	"Dependencies": []
 }

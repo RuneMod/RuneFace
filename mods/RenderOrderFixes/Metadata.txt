@@ -1,10 +1,11 @@
 {
 	"Mod_Format": 1,
-	"Mod_Version": 29,
+	"Mod_Version": 31,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "RenderOrderFixes",
 	"Mod_Description": "",
 	"Mod_HomePage": "",
+	"Mod_DefaultLoadOrder": 0,
 	"Files": [
 		"index.html",
 		"ModPage.html",
@@ -20,5 +21,6 @@
 		"Assets/7/80",
 		"ModPage_files/ModPageThumbnail.png",
 		"Metadata.txt"
-	]
+	],
+	"Dependencies": []
 }

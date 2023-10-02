@@ -1,10 +1,11 @@
 {
 	"Mod_Format": 1,
-	"Mod_Version": 39,
+	"Mod_Version": 41,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "FixRoofsAndWalls",
 	"Mod_Description": "",
 	"Mod_HomePage": "",
+	"Mod_DefaultLoadOrder": 0,
 	"Files": [
 		"Assets/1/0",
 		"Assets/1/11",
@@ -15,7 +16,8 @@
 		"Assets/1/38",
 		"Assets/1/5",
 		"Assets/1/6",
-		"Assets/12/66979836",
+		"Assets/12/-8589672448",
 		"Metadata.txt"
-	]
+	],
+	"Dependencies": []
 }

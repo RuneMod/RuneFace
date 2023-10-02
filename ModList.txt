@@ -72,6 +72,13 @@
 		},
 		{
 			"mod_CreatorName": "RuneFace",
+			"mod_Name": "WindEnabler",
+			"setting_LoadOrder": 3,
+			"setting_Loaded": true,
+			"mod_Page": ""
+		},
+		{
+			"mod_CreatorName": "RuneFace",
 			"mod_Name": "RFs LightSources",
 			"setting_LoadOrder": 2,
 			"setting_Loaded": true,
@@ -81,15 +88,8 @@
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "RFs Weather",
 			"setting_LoadOrder": 2,
-			"setting_Loaded": false,
-			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RFs%20Weather/ModPage.html"
-		},
-		{
-			"mod_CreatorName": "RuneFace",
-			"mod_Name": "WindEnabler",
-			"setting_LoadOrder": 3,
 			"setting_Loaded": true,
-			"mod_Page": ""
+			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RFs%20Weather/ModPage.html"
 		},
 		{
 			"mod_CreatorName": "RuneFace",
