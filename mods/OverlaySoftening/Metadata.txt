@@ -1,6 +1,6 @@
 {
 	"Mod_Format": 1,
-	"Mod_Version": 44,
+	"Mod_Version": 46,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "OverlaySoftening",
 	"Mod_Description": "",
@@ -9,7 +9,7 @@
 	"Files": [
 		"index.html",
 		"ModPage.html",
-		"Assets/12/-8589672448",
+		"Assets/12/-4294705153",
 		"Assets/12/25648",
 		"Assets/12/25656",
 		"Assets/12/25664",
