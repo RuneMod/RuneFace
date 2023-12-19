@@ -1,6 +1,6 @@
 {
 	"Mod_Format": 1,
-	"Mod_Version": 68,
+	"Mod_Version": 70,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "WindEnabler",
 	"Mod_Description": "",
@@ -19,6 +19,7 @@
 		"Assets/7/244",
 		"Assets/7/25",
 		"Assets/7/26",
+		"Assets/7/264",
 		"Assets/7/386",
 		"Assets/7/389",
 		"Assets/7/395",

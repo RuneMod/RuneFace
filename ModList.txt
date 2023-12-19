@@ -5,20 +5,20 @@
 			"mod_Name": "Default",
 			"setting_LoadOrder": 0,
 			"setting_Loaded": true,
-			"mod_Page": "https://raw.githubusercontent.com/RuneMod/Default/main/ModPage.html"
+			"mod_Page": ""
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "CrispWaters",
 			"setting_LoadOrder": 6,
-			"setting_Loaded": true,
+			"setting_Loaded": false,
 			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/CrispWaters/ModPage.html"
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "EnhancedTextures",
 			"setting_LoadOrder": 3,
-			"setting_Loaded": true,
+			"setting_Loaded": false,
 			"mod_Page": ""
 		},
 		{
@@ -39,7 +39,7 @@
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "GroundBlending",
 			"setting_LoadOrder": 8,
-			"setting_Loaded": true,
+			"setting_Loaded": false,
 			"mod_Page": ""
 		},
 		{
@@ -53,7 +53,7 @@
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "OverlaySoftening",
 			"setting_LoadOrder": 1,
-			"setting_Loaded": true,
+			"setting_Loaded": false,
 			"mod_Page": ""
 		},
 		{
@@ -67,7 +67,7 @@
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "RFs Lava",
 			"setting_LoadOrder": 2,
-			"setting_Loaded": false,
+			"setting_Loaded": true,
 			"mod_Page": ""
 		},
 		{
@@ -90,13 +90,6 @@
 			"setting_LoadOrder": 2,
 			"setting_Loaded": true,
 			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RFs%20Weather/ModPage.html"
-		},
-		{
-			"mod_CreatorName": "RuneFace",
-			"mod_Name": "NightTime",
-			"setting_LoadOrder": 12,
-			"setting_Loaded": true,
-			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/NightTime/ModPage.html"
 		}
 	]
 }
