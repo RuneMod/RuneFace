@@ -1,6 +1,6 @@
 {
 	"Mod_Format": 1,
-	"Mod_Version": 32,
+	"Mod_Version": 38,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "RenderOrderFixes",
 	"Mod_Description": "",
@@ -9,6 +9,9 @@
 	"Files": [
 		"index.html",
 		"ModPage.html",
+		"Assets/1/0",
+		"Assets/1/10",
+		"Assets/1/14",
 		"Assets/1/16",
 		"Assets/1/2",
 		"Assets/1/22",

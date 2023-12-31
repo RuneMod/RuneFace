@@ -1,6 +1,6 @@
 {
 	"Mod_Format": 1,
-	"Mod_Version": 241,
+	"Mod_Version": 246,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "RFs LightSources",
 	"Mod_Description": "Add light source to rs. Nuffin more to it.",
@@ -13,6 +13,7 @@
 		"Assets/1/11",
 		"Assets/1/16",
 		"Assets/1/2",
+		"Assets/1/23",
 		"Assets/1/24",
 		"Assets/1/25",
 		"Assets/1/3",
@@ -40,7 +41,7 @@
 			"Mod_Name": "Default",
 			"Mod_CreatorName": "Default",
 			"Setting_LoadOrder": 0,
-			"Mod_Page": "https://raw.githubusercontent.com/RuneMod/Default/main/ModPage.html"
+			"Mod_Page": ""
 		}
 	]
 }

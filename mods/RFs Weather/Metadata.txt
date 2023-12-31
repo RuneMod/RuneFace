@@ -1,6 +1,6 @@
 {
 	"Mod_Format": 1,
-	"Mod_Version": 494,
+	"Mod_Version": 499,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "RFs Weather",
 	"Mod_Description": "Natural weather effects ayeyaey blublublblub oooo",
@@ -876,6 +876,7 @@
 		"Assets/16/15502",
 		"Assets/16/15512",
 		"Assets/16/15515",
+		"Assets/16/25769934847",
 		"Assets/16/43448",
 		"Assets/16/4662",
 		"Assets/16/4663",
