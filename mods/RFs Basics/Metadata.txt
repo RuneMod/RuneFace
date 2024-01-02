@@ -3,7 +3,7 @@
 	"Mod_Version": 48,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "RFs Basics",
-	"Mod_Description": "Fixes visual glitches",
+	"Mod_Description": "Makes RuneMod look decent.",
 	"Mod_HomePage": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RFs%20Basics/ModPage.html",
 	"Mod_DefaultLoadOrder": 11,
 	"Files": [
