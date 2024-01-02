@@ -44,7 +44,7 @@
 		},
 		{
 			"mod_CreatorName": "RuneFace",
-			"mod_Name": "RenderOrderFixes",
+			"mod_Name": "RFs Basics",
 			"setting_LoadOrder": 11,
 			"setting_Loaded": true,
 			"mod_Page": ""

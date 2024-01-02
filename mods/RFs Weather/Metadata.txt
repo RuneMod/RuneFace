@@ -5,7 +5,7 @@
 	"Mod_Name": "RFs Weather",
 	"Mod_Description": "Natural weather effects ayeyaey blublublblub oooo",
 	"Mod_HomePage": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RFs%20Weather/ModPage.html",
-	"Mod_DefaultLoadOrder": 2,
+	"Mod_DefaultLoadOrder": 5,
 	"Files": [
 		"index.html",
 		"ModPage.html",
@@ -1359,12 +1359,5 @@
 		"ModPage_files/ModPageThumbnail.png",
 		"Metadata.txt"
 	],
-	"Dependencies": [
-		{
-			"Mod_Name": "Default",
-			"Mod_CreatorName": "Default",
-			"Setting_LoadOrder": 0,
-			"Mod_Page": ""
-		}
-	]
+	"Dependencies": []
 }

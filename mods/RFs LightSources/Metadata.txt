@@ -5,7 +5,7 @@
 	"Mod_Name": "RFs LightSources",
 	"Mod_Description": "Add light source to rs. Nuffin more to it.",
 	"Mod_HomePage": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RFs%20LightSources/ModPage.html",
-	"Mod_DefaultLoadOrder": 2,
+	"Mod_DefaultLoadOrder": 3,
 	"Files": [
 		"index.html",
 		"ModPage.html",
@@ -42,12 +42,5 @@
 		"ModPage_files/ModPageThumbnail.png",
 		"Metadata.txt"
 	],
-	"Dependencies": [
-		{
-			"Mod_Name": "Default",
-			"Mod_CreatorName": "Default",
-			"Setting_LoadOrder": 0,
-			"Mod_Page": ""
-		}
-	]
+	"Dependencies": []
 }
