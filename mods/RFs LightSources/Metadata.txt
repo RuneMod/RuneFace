@@ -3,7 +3,7 @@
 	"Mod_Version": 255,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "RFs LightSources",
-	"Mod_Description": "Adds light source to rs.",
+	"Mod_Description": "Adds light sources to rs.",
 	"Mod_HomePage": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RFs%20LightSources/ModPage.html",
 	"Mod_DefaultLoadOrder": 3,
 	"Files": [
