@@ -3,7 +3,7 @@
 	"Mod_Version": 500,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "RFs Weather",
-	"Mod_Description": "Adds suitable weather and ambient lighting.",
+	"Mod_Description": "Adds weather and lighting to different areas.",
 	"Mod_HomePage": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RFs%20Weather/ModPage.html",
 	"Mod_DefaultLoadOrder": 5,
 	"Files": [
