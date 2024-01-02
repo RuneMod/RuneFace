@@ -3,7 +3,7 @@
 	"Mod_Version": 500,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "RFs Weather",
-	"Mod_Description": "Natural weather effects ayeyaey blublublblub oooo",
+	"Mod_Description": "Adds suitable weather and ambient lighting.",
 	"Mod_HomePage": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RFs%20Weather/ModPage.html",
 	"Mod_DefaultLoadOrder": 5,
 	"Files": [
@@ -1357,6 +1357,9 @@
 		"Assets/7/70",
 		"Assets/7/86",
 		"ModPage_files/ModPageThumbnail.png",
+		"ModPage_files/weather02.png",
+		"ModPage_files/weather04.png",
+		"ModPage_files/weather05.png",
 		"Metadata.txt"
 	],
 	"Dependencies": []
