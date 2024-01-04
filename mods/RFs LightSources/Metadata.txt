@@ -1,6 +1,6 @@
 {
 	"Mod_Format": 1,
-	"Mod_Version": 255,
+	"Mod_Version": 257,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "RFs LightSources",
 	"Mod_Description": "Adds light sources to rs.",
