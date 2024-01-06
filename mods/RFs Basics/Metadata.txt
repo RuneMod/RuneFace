@@ -1,6 +1,6 @@
 {
 	"Mod_Format": 1,
-	"Mod_Version": 86,
+	"Mod_Version": 91,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "RFs Basics",
 	"Mod_Description": "Makes RuneMod look decent.",
