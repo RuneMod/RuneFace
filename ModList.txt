@@ -17,14 +17,7 @@
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "EnhancedTextures",
-			"setting_LoadOrder": 4,
-			"setting_Loaded": false,
-			"mod_Page": ""
-		},
-		{
-			"mod_CreatorName": "RuneFace",
-			"mod_Name": "GroundBlending",
-			"setting_LoadOrder": 8,
+			"setting_LoadOrder": 6,
 			"setting_Loaded": false,
 			"mod_Page": ""
 		},
@@ -38,16 +31,16 @@
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "OverlaySoftening",
-			"setting_LoadOrder": 1,
+			"setting_LoadOrder": 8,
 			"setting_Loaded": false,
 			"mod_Page": ""
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "RFs Basics",
-			"setting_LoadOrder": 11,
+			"setting_LoadOrder": 2,
 			"setting_Loaded": true,
-			"mod_Page": ""
+			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RFs%20Basics/ModPage.html"
 		},
 		{
 			"mod_CreatorName": "RuneFace",
