@@ -55,6 +55,13 @@
 			"setting_LoadOrder": 5,
 			"setting_Loaded": true,
 			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RFs%20Weather/ModPage.html"
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "TexturedWorld",
+			"setting_LoadOrder": 9,
+			"setting_Loaded": true,
+			"mod_Page": ""
 		}
 	]
 }
