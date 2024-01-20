@@ -60,6 +60,13 @@
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "TexturedWorld",
 			"setting_LoadOrder": 9,
+			"setting_Loaded": true,
+			"mod_Page": ""
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "Lut",
+			"setting_LoadOrder": 5,
 			"setting_Loaded": false,
 			"mod_Page": ""
 		}
