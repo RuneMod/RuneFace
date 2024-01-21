@@ -60,7 +60,7 @@
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "TexturedWorld",
 			"setting_LoadOrder": 9,
-			"setting_Loaded": true,
+			"setting_Loaded": false,
 			"mod_Page": ""
 		},
 		{
