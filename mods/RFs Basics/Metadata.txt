@@ -1,6 +1,6 @@
 {
 	"Mod_Format": 1,
-	"Mod_Version": 319,
+	"Mod_Version": 323,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "RFs Basics",
 	"Mod_Description": "Makes RuneMod look decent.",
@@ -62,6 +62,7 @@
 		"Assets/13/25769803778",
 		"Assets/13/25769803779",
 		"Assets/18/0",
+		"Assets/7/115",
 		"Assets/7/12",
 		"Assets/7/13",
 		"Assets/7/148",
