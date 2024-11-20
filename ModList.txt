@@ -47,7 +47,7 @@
 			"mod_Name": "MoreGroundCover",
 			"setting_LoadOrder": 7,
 			"setting_Loaded": true,
-			"mod_Page": ""
+			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/MoreGroundCover/ModPage.html"
 		}
 	]
 }

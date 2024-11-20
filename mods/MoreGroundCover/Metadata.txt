@@ -4,7 +4,7 @@
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "MoreGroundCover",
 	"Mod_Description": "Makes groundcover more dense.",
-	"Mod_HomePage": "",
+	"Mod_HomePage": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/MoreGroundCover/ModPage.html",
 	"Mod_DefaultLoadOrder": 7,
 	"Files": [
 		"index.html",
