@@ -9,36 +9,8 @@
 		},
 		{
 			"mod_CreatorName": "RuneFace",
-			"mod_Name": "CrispWaters",
-			"setting_LoadOrder": 6,
-			"setting_Loaded": false,
-			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/CrispWaters/ModPage.html"
-		},
-		{
-			"mod_CreatorName": "RuneFace",
-			"mod_Name": "EnhancedTextures",
-			"setting_LoadOrder": 6,
-			"setting_Loaded": false,
-			"mod_Page": ""
-		},
-		{
-			"mod_CreatorName": "RuneFace",
-			"mod_Name": "hd grass models",
-			"setting_LoadOrder": 7,
-			"setting_Loaded": false,
-			"mod_Page": ""
-		},
-		{
-			"mod_CreatorName": "RuneFace",
-			"mod_Name": "OverlaySoftening",
-			"setting_LoadOrder": 8,
-			"setting_Loaded": false,
-			"mod_Page": ""
-		},
-		{
-			"mod_CreatorName": "RuneFace",
 			"mod_Name": "RFs Basics",
-			"setting_LoadOrder": 2,
+			"setting_LoadOrder": 5,
 			"setting_Loaded": true,
 			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RFs%20Basics/ModPage.html"
 		},
@@ -52,22 +24,29 @@
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "RFs Weather",
-			"setting_LoadOrder": 5,
+			"setting_LoadOrder": 4,
 			"setting_Loaded": true,
 			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RFs%20Weather/ModPage.html"
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "TexturedWorld",
-			"setting_LoadOrder": 9,
+			"setting_LoadOrder": 7,
 			"setting_Loaded": false,
 			"mod_Page": ""
 		},
 		{
 			"mod_CreatorName": "RuneFace",
-			"mod_Name": "Lut",
-			"setting_LoadOrder": 5,
-			"setting_Loaded": false,
+			"mod_Name": "RFs Water",
+			"setting_LoadOrder": 6,
+			"setting_Loaded": true,
+			"mod_Page": ""
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "MoreGroundCover",
+			"setting_LoadOrder": 7,
+			"setting_Loaded": true,
 			"mod_Page": ""
 		}
 	]
