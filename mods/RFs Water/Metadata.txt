@@ -4,7 +4,7 @@
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "RFs Water",
 	"Mod_Description": "Makes water more realistic",
-	"Mod_HomePage": "",
+	"Mod_HomePage": "https://github.com/RuneMod/RuneFace/blob/master/mods/RFs%20Water/ModPage.html",
 	"Mod_DefaultLoadOrder": 6,
 	"Files": [
 		"index.html",
