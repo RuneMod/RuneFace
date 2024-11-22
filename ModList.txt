@@ -44,7 +44,7 @@
 		},
 		{
 			"mod_CreatorName": "RuneFace",
-			"mod_Name": "MoreGroundCover",
+			"mod_Name": "Extra Ground Cover",
 			"setting_LoadOrder": 7,
 			"setting_Loaded": true,
 			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/MoreGroundCover/ModPage.html"

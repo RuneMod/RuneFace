@@ -1,8 +1,8 @@
 {
 	"Mod_Format": 0,
-	"Mod_Version": 26,
+	"Mod_Version": 27,
 	"Mod_CreatorName": "RuneFace",
-	"Mod_Name": "MoreGroundCover",
+	"Mod_Name": "Extra Ground Cover",
 	"Mod_Description": "Makes groundcover more dense.",
 	"Mod_HomePage": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/MoreGroundCover/ModPage.html",
 	"Mod_DefaultLoadOrder": 7,
@@ -17,6 +17,7 @@
 		"Assets/1/14",
 		"Assets/1/21",
 		"Assets/1/3",
+		"Assets/1/31",
 		"Assets/1/35",
 		"Assets/1/38",
 		"Assets/1/4",
