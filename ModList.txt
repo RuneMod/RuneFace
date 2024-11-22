@@ -30,10 +30,10 @@
 		},
 		{
 			"mod_CreatorName": "RuneFace",
-			"mod_Name": "TexturedWorld",
+			"mod_Name": "Textured World",
 			"setting_LoadOrder": 7,
-			"setting_Loaded": true,
-			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/TexturedWorld/ModPage.html"
+			"setting_Loaded": false,
+			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/Textured%20World/ModPage.html"
 		},
 		{
 			"mod_CreatorName": "RuneFace",
@@ -45,7 +45,7 @@
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "Extra Ground Cover",
-			"setting_LoadOrder": 7,
+			"setting_LoadOrder": 8,
 			"setting_Loaded": true,
 			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/Extra%20Ground%20Cover/ModPage.html"
 		}
