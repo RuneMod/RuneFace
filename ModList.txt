@@ -32,7 +32,7 @@
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "Textured World",
 			"setting_LoadOrder": 7,
-			"setting_Loaded": false,
+			"setting_Loaded": true,
 			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/Textured%20World/ModPage.html"
 		},
 		{
