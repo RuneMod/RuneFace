@@ -5,7 +5,7 @@
 	"Mod_Name": "Extra Ground Cover",
 	"Mod_Description": "Makes groundcover more dense.",
 	"Mod_HomePage": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/Extra%20Ground%20Cover/ModPage.html",
-	"Mod_DefaultLoadOrder": 7,
+	"Mod_DefaultLoadOrder": 8,
 	"Files": [
 		"index.html",
 		"ModPage.html",
