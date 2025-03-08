@@ -1,0 +1,16 @@
+{
+	"Mod_Format": 0,
+	"Mod_Version": 7,
+	"Mod_CreatorName": "RuneFace",
+	"Mod_Name": "Night Mode",
+	"Mod_Description": "",
+	"Mod_HomePage": "",
+	"Mod_DefaultLoadOrder": -1,
+	"Files": [
+		"Assets/15/25769803777",
+		"Assets/15/25769803778",
+		"Assets/15/25769803781",
+		"Metadata.txt"
+	],
+	"Dependencies": []
+}
