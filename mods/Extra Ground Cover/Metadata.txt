@@ -1,6 +1,6 @@
 {
 	"Mod_Format": 0,
-	"Mod_Version": 28,
+	"Mod_Version": 29,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "Extra Ground Cover",
 	"Mod_Description": "Makes groundcover more dense.",
