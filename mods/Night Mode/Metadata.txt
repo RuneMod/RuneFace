@@ -1,6 +1,6 @@
 {
 	"Mod_Format": 0,
-	"Mod_Version": 55,
+	"Mod_Version": 64,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "Night Mode",
 	"Mod_Description": "",
