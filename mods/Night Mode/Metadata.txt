@@ -1,15 +1,19 @@
 {
 	"Mod_Format": 0,
-	"Mod_Version": 75,
+	"Mod_Version": 89,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "Night Mode",
 	"Mod_Description": "",
 	"Mod_HomePage": "",
-	"Mod_DefaultLoadOrder": -1,
+	"Mod_DefaultLoadOrder": 9,
 	"Files": [
+		"index.html",
+		"ModPage.html",
+		"ModPage_files/ModPageThumbnail.png",
 		"Assets/15/25769803777",
 		"Assets/15/25769803778",
 		"Assets/15/25769803781",
+		"Assets/15/25769803782",
 		"Assets/8/25769803863",
 		"Assets_Source/Sounds/nightDesert_01.ogg",
 		"Assets_Source/Sounds/nightForest_01.ogg",
@@ -28,5 +32,38 @@
 		"Assets_Source/Sounds/audacity/owls_01.aup3",
 		"Metadata.txt"
 	],
-	"Dependencies": []
+	"Files_TimeStamps": [
+		"1745102156",
+		"1745102156",
+		"1745102156",
+		"1745008518",
+		"1745008518",
+		"1745008518",
+		"1744977349",
+		"1745008518",
+		"1743354188",
+		"1743348677",
+		"1743350247",
+		"1743351284",
+		"1743351537",
+		"1743350003",
+		"1743257535",
+		"1743351790",
+		"1743351736",
+		"1743354190",
+		"1743348702",
+		"1743350273",
+		"1743351285",
+		"1743351541",
+		"1743350269",
+		"1745008518"
+	],
+	"Dependencies": [
+		{
+			"Mod_Name": "RFs Weather",
+			"Mod_CreatorName": "RuneFace",
+			"Setting_LoadOrder": 4,
+			"Mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RFs%20Weather/ModPage.html"
+		}
+	]
 }
