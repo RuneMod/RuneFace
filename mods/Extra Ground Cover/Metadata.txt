@@ -1,6 +1,6 @@
 {
 	"Mod_Format": 0,
-	"Mod_Version": 29,
+	"Mod_Version": 30,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "Extra Ground Cover",
 	"Mod_Description": "Makes groundcover more dense.",
@@ -26,6 +26,27 @@
 		"Assets/1/6",
 		"Assets/1/7",
 		"Metadata.txt"
+	],
+	"Files_TimeStamps": [
+		"1738171856",
+		"1738171856",
+		"1738171856",
+		"1738171856",
+		"1743073749",
+		"1743073749",
+		"1743073749",
+		"1743073749",
+		"1743073749",
+		"1743073749",
+		"1743073749",
+		"1743073749",
+		"1743073749",
+		"1743073749",
+		"1743073749",
+		"1743073749",
+		"1743073749",
+		"1743073749",
+		"1745101963"
 	],
 	"Dependencies": []
 }
