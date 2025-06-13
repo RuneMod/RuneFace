@@ -1,0 +1,577 @@
+{
+  "assetCategories": {
+    "surface": {
+      "marble": {
+        "tile": {}
+      }
+    }
+  },
+  "averageColor": "#000000",
+  "categories": [
+    "surface",
+    "marble",
+    "polished"
+  ],
+  "comp_version": 1,
+  "description": "",
+  "displacementBias": 0.996079,
+  "displacementCalibrationAccuracy": 0.999269,
+  "displacementScale": 23.473679,
+  "environment": {
+    "biome": "urban",
+    "region": "Europe"
+  },
+  "highest_available_res": 16384,
+  "id": "uh1ldj2v",
+  "json": {
+    "contentLength": 12070,
+    "uri": "uh1ldj2v.json"
+  },
+  "maps": [
+    {
+      "averageColor": "#FFFFFF",
+      "bitDepth": 32,
+      "colorSpace": "sRGB",
+      "contentLength": 8042241,
+      "maxIntensity": 255,
+      "mimeType": "image/x-exr",
+      "minIntensity": 253,
+      "name": "AO",
+      "physicalSize": "1.2x1.2",
+      "resolution": "8192x8192",
+      "type": "ao",
+      "uri": "uh1ldj2v_8K_AO.exr"
+    },
+    {
+      "averageColor": "#FFFFFF",
+      "bitDepth": 8,
+      "colorSpace": "sRGB",
+      "contentLength": 999487,
+      "maxIntensity": 255,
+      "mimeType": "image/jpeg",
+      "minIntensity": 253,
+      "name": "AO",
+      "physicalSize": "1.2x1.2",
+      "resolution": "8192x8192",
+      "type": "ao",
+      "uri": "uh1ldj2v_8K_AO.jpg"
+    },
+    {
+      "averageColor": "#6A5857",
+      "bitDepth": 16,
+      "colorSpace": "sRGB",
+      "contentLength": 225035493,
+      "maxIntensity": 173,
+      "mimeType": "image/x-exr",
+      "minIntensity": 27,
+      "name": "Basecolor",
+      "physicalSize": "1.2x1.2",
+      "resolution": "8192x8192",
+      "type": "basecolor",
+      "uri": "uh1ldj2v_8K_Basecolor.exr"
+    },
+    {
+      "averageColor": "#6A5857",
+      "bitDepth": 8,
+      "colorSpace": "sRGB",
+      "contentLength": 30970829,
+      "maxIntensity": 173,
+      "mimeType": "image/jpeg",
+      "minIntensity": 27,
+      "name": "Basecolor",
+      "physicalSize": "1.2x1.2",
+      "resolution": "8192x8192",
+      "type": "basecolor",
+      "uri": "uh1ldj2v_8K_Basecolor.jpg"
+    },
+    {
+      "averageColor": "#808080",
+      "bitDepth": 32,
+      "colorSpace": "Linear",
+      "contentLength": 78293888,
+      "maxIntensity": 255,
+      "mimeType": "image/x-exr",
+      "minIntensity": 0,
+      "name": "Bump",
+      "physicalSize": "1.2x1.2",
+      "resolution": "8192x8192",
+      "type": "bump",
+      "uri": "uh1ldj2v_8K_Bump.exr"
+    },
+    {
+      "averageColor": "#808080",
+      "bitDepth": 8,
+      "colorSpace": "Linear",
+      "contentLength": 7544369,
+      "maxIntensity": 255,
+      "mimeType": "image/jpeg",
+      "minIntensity": 0,
+      "name": "Bump",
+      "physicalSize": "1.2x1.2",
+      "resolution": "8192x8192",
+      "type": "bump",
+      "uri": "uh1ldj2v_8K_Bump.jpg"
+    },
+    {
+      "averageColor": "#FFFFFF",
+      "bitDepth": 32,
+      "colorSpace": "sRGB",
+      "contentLength": 148106166,
+      "maxIntensity": 255,
+      "mimeType": "image/x-exr",
+      "minIntensity": 227.27,
+      "name": "Cavity",
+      "physicalSize": "1.2x1.2",
+      "resolution": "8192x8192",
+      "type": "cavity",
+      "uri": "uh1ldj2v_8K_Cavity.exr"
+    },
+    {
+      "averageColor": "#FFFFFF",
+      "bitDepth": 8,
+      "colorSpace": "sRGB",
+      "contentLength": 8300469,
+      "maxIntensity": 255,
+      "mimeType": "image/jpeg",
+      "minIntensity": 227.27,
+      "name": "Cavity",
+      "physicalSize": "1.2x1.2",
+      "resolution": "8192x8192",
+      "type": "cavity",
+      "uri": "uh1ldj2v_8K_Cavity.jpg"
+    },
+    {
+      "averageColor": "#D2D2D2",
+      "bitDepth": 32,
+      "colorSpace": "Linear",
+      "contentLength": 183035600,
+      "maxIntensity": 241,
+      "mimeType": "image/x-exr",
+      "minIntensity": 61,
+      "name": "Gloss",
+      "physicalSize": "1.2x1.2",
+      "resolution": "8192x8192",
+      "type": "gloss",
+      "uri": "uh1ldj2v_8K_Gloss.exr"
+    },
+    {
+      "averageColor": "#D2D2D2",
+      "bitDepth": 8,
+      "colorSpace": "Linear",
+      "contentLength": 10190310,
+      "maxIntensity": 241,
+      "mimeType": "image/jpeg",
+      "minIntensity": 61,
+      "name": "Gloss",
+      "physicalSize": "1.2x1.2",
+      "resolution": "8192x8192",
+      "type": "gloss",
+      "uri": "uh1ldj2v_8K_Gloss.jpg"
+    },
+    {
+      "averageColor": "#8282FF",
+      "bitDepth": 16,
+      "colorSpace": "Linear",
+      "contentLength": 23095417,
+      "maxIntensity": 157,
+      "mimeType": "image/x-exr",
+      "minIntensity": 129,
+      "name": "Normal",
+      "physicalSize": "1.2x1.2",
+      "resolution": "8192x8192",
+      "type": "normal",
+      "uri": "uh1ldj2v_8K_Normal.exr"
+    },
+    {
+      "averageColor": "#8282FF",
+      "bitDepth": 8,
+      "colorSpace": "Linear",
+      "contentLength": 5535838,
+      "maxIntensity": 157,
+      "mimeType": "image/jpeg",
+      "minIntensity": 129,
+      "name": "Normal",
+      "physicalSize": "1.2x1.2",
+      "resolution": "8192x8192",
+      "type": "normal",
+      "uri": "uh1ldj2v_8K_Normal.jpg"
+    },
+    {
+      "averageColor": "#2D2D2D",
+      "bitDepth": 32,
+      "colorSpace": "Linear",
+      "contentLength": 194271644,
+      "maxIntensity": 194,
+      "mimeType": "image/x-exr",
+      "minIntensity": 14,
+      "name": "Roughness",
+      "physicalSize": "1.2x1.2",
+      "resolution": "8192x8192",
+      "type": "roughness",
+      "uri": "uh1ldj2v_8K_Roughness.exr"
+    },
+    {
+      "averageColor": "#2D2D2D",
+      "bitDepth": 8,
+      "colorSpace": "Linear",
+      "contentLength": 10702311,
+      "maxIntensity": 194,
+      "mimeType": "image/jpeg",
+      "minIntensity": 14,
+      "name": "Roughness",
+      "physicalSize": "1.2x1.2",
+      "resolution": "8192x8192",
+      "type": "roughness",
+      "uri": "uh1ldj2v_8K_Roughness.jpg"
+    },
+    {
+      "averageColor": "#3E3E3E",
+      "bitDepth": 16,
+      "colorSpace": "Linear",
+      "contentLength": 118688066,
+      "maxIntensity": 66,
+      "mimeType": "image/x-exr",
+      "minIntensity": 50,
+      "name": "Specular",
+      "physicalSize": "1.2x1.2",
+      "resolution": "8192x8192",
+      "type": "specular",
+      "uri": "uh1ldj2v_8K_Specular.exr"
+    },
+    {
+      "averageColor": "#3E3E3E",
+      "bitDepth": 8,
+      "colorSpace": "Linear",
+      "contentLength": 7102369,
+      "maxIntensity": 66,
+      "mimeType": "image/jpeg",
+      "minIntensity": 50,
+      "name": "Specular",
+      "physicalSize": "1.2x1.2",
+      "resolution": "8192x8192",
+      "type": "specular",
+      "uri": "uh1ldj2v_8K_Specular.jpg"
+    }
+  ],
+  "meta": [
+    {
+      "key": "scanArea",
+      "name": "Scan Area",
+      "value": "1.2x1.2 m"
+    },
+    {
+      "key": "height",
+      "name": "Height",
+      "value": "0.002 m"
+    },
+    {
+      "key": "tileable",
+      "name": "Tileable",
+      "value": true
+    },
+    {
+      "key": "tiling_directions",
+      "name": "Tiling Directions",
+      "value": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "key": "texelDensity",
+      "name": "Texel Density",
+      "value": "13653 px/m"
+    },
+    {
+      "key": "calibration",
+      "name": "Calibration",
+      "value": "GretagMacbeth ColorChecker Color Rendition Chart"
+    },
+    {
+      "key": "scanner",
+      "name": "Scanner",
+      "value": "MKX"
+    }
+  ],
+  "models": [],
+  "name": "Rosso Levanto Marble Tiles",
+  "pack": {
+    "_id": "marble-tiles",
+    "name": "Marble Tiles"
+  },
+  "physicalSize": null,
+  "points": 2,
+  "previews": {
+    "images": [
+      {
+        "contentLength": 291624,
+        "resolution": "360x360",
+        "tags": [
+          "thumb"
+        ],
+        "uri": "uh1ldj2v_Grid_360.png"
+      },
+      {
+        "contentLength": 394590,
+        "resolution": "420x420",
+        "tags": [
+          "thumb"
+        ],
+        "uri": "uh1ldj2v_Grid_420.png"
+      },
+      {
+        "contentLength": 1149098,
+        "resolution": "720x720",
+        "tags": [
+          "thumb",
+          "retina"
+        ],
+        "uri": "uh1ldj2v_Grid_720.png"
+      },
+      {
+        "contentLength": 1559378,
+        "resolution": "840x840",
+        "tags": [
+          "thumb",
+          "retina"
+        ],
+        "uri": "uh1ldj2v_Grid_840.png"
+      },
+      {
+        "contentLength": 1814859,
+        "resolution": "1440x768",
+        "tags": [
+          "preview",
+          "clay"
+        ],
+        "uri": "uh1ldj2v_PopupClay_1440.png"
+      },
+      {
+        "contentLength": 3336328,
+        "resolution": "1920x1080",
+        "tags": [
+          "preview",
+          "clay"
+        ],
+        "uri": "uh1ldj2v_PopupClay_1920.png"
+      },
+      {
+        "contentLength": 7017579,
+        "resolution": "2880x1536",
+        "tags": [
+          "preview",
+          "clay",
+          "retina"
+        ],
+        "uri": "uh1ldj2v_PopupClay_2880.png"
+      },
+      {
+        "contentLength": 12438381,
+        "resolution": "3840x2160",
+        "tags": [
+          "preview",
+          "clay",
+          "retina"
+        ],
+        "uri": "uh1ldj2v_PopupClay_3840.png"
+      },
+      {
+        "contentLength": 3276632,
+        "resolution": "1440x768",
+        "tags": [
+          "preview",
+          "tiled"
+        ],
+        "uri": "uh1ldj2v_PopupTiled_1440.png"
+      },
+      {
+        "contentLength": 6092539,
+        "resolution": "1920x1080",
+        "tags": [
+          "preview",
+          "tiled"
+        ],
+        "uri": "uh1ldj2v_PopupTiled_1920.png"
+      },
+      {
+        "contentLength": 12874250,
+        "resolution": "2880x1536",
+        "tags": [
+          "preview",
+          "tiled",
+          "retina"
+        ],
+        "uri": "uh1ldj2v_PopupTiled_2880.png"
+      },
+      {
+        "contentLength": 24456699,
+        "resolution": "3840x2160",
+        "tags": [
+          "preview",
+          "tiled",
+          "retina"
+        ],
+        "uri": "uh1ldj2v_PopupTiled_3840.png"
+      },
+      {
+        "contentLength": 3227087,
+        "resolution": "1440x768",
+        "tags": [
+          "preview"
+        ],
+        "uri": "uh1ldj2v_Popup_1440.png"
+      },
+      {
+        "contentLength": 5975626,
+        "resolution": "1920x1080",
+        "tags": [
+          "preview"
+        ],
+        "uri": "uh1ldj2v_Popup_1920.png"
+      },
+      {
+        "contentLength": 12620345,
+        "resolution": "2880x1536",
+        "tags": [
+          "preview",
+          "retina"
+        ],
+        "uri": "uh1ldj2v_Popup_2880.png"
+      },
+      {
+        "contentLength": 23812169,
+        "resolution": "3840x2160",
+        "tags": [
+          "preview",
+          "retina"
+        ],
+        "uri": "uh1ldj2v_Popup_3840.png"
+      }
+    ],
+    "relativeSize": "1x1",
+    "scaleReferences": []
+  },
+  "process_date": "2024-04-17 03:18:10",
+  "properties": [],
+  "referencePreviews": {
+    "maps": [],
+    "models": []
+  },
+  "references": [],
+  "revised": false,
+  "revision": 0,
+  "semanticTags": {
+    "architectural_style": {},
+    "asset_type": "surface",
+    "color": [
+      "Purple",
+      "White",
+      "Pink"
+    ],
+    "contains": [
+      "marble",
+      "tiles",
+      "Rosso Levanto"
+    ],
+    "country": "Sweden",
+    "descriptive": [
+      "Pristine",
+      "polished",
+      "decorative",
+      "ornate",
+      "square"
+    ],
+    "environment": [
+      "urban"
+    ],
+    "industry": [
+      "archviz"
+    ],
+    "interior_exterior": [
+      "interior"
+    ],
+    "locations": {
+      "Europe": {
+        "Sweden": {}
+      }
+    },
+    "maxSize": 1.2,
+    "minSize": 1.2,
+    "name": "Rosso Levanto Marble Tiles",
+    "region": "Europe",
+    "resolution": 16384,
+    "state": [
+      "new"
+    ],
+    "subject_matter": "nature",
+    "theme": [
+      "kitchens",
+      "interiors",
+      "bathrooms",
+      "archviz",
+      "homes",
+      "offices",
+      "modern",
+      "floors",
+      "walls"
+    ]
+  },
+  "tags": [
+    "purple",
+    "white",
+    "pink",
+    "kitchens",
+    "interiors",
+    "bathrooms",
+    "archviz",
+    "homes",
+    "offices",
+    "modern",
+    "floors",
+    "walls",
+    "marble",
+    "tiles",
+    "rosso levanto",
+    "pristine",
+    "polished",
+    "decorative",
+    "ornate"
+  ],
+  "texelDensity": 13653,
+  "texture_type": "basic",
+  "ue_plugin_archives": [
+    {
+      "contentLength": 98166969,
+      "gltfVersion": "2.0",
+      "tier": 0,
+      "type": "gltf",
+      "uri": "ue_plugin_archives/tier_0/uh1ldj2v_tier_0.zip",
+      "version": 1
+    },
+    {
+      "contentLength": 31207297,
+      "gltfVersion": "2.0",
+      "tier": 1,
+      "type": "gltf",
+      "uri": "ue_plugin_archives/tier_1/uh1ldj2v_tier_1.zip",
+      "version": 1
+    },
+    {
+      "contentLength": 8963284,
+      "gltfVersion": "2.0",
+      "tier": 2,
+      "type": "gltf",
+      "uri": "ue_plugin_archives/tier_2/uh1ldj2v_tier_2.zip",
+      "version": 1
+    },
+    {
+      "contentLength": 915686,
+      "gltfVersion": "2.0",
+      "tier": 3,
+      "type": "gltf",
+      "uri": "ue_plugin_archives/tier_3/uh1ldj2v_tier_3.zip",
+      "version": 1
+    }
+  ],
+  "version": 2
+}

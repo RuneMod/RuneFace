@@ -1,0 +1,605 @@
+{
+  "assetCategories": {
+    "surface": {
+      "sand": {
+        "beach": {}
+      }
+    }
+  },
+  "averageColor": "#000000",
+  "categories": [
+    "surface",
+    "sand",
+    "beach"
+  ],
+  "comp_version": 1,
+  "description": "",
+  "displacementBias": 0.409166,
+  "displacementCalibrationAccuracy": 0.987464,
+  "displacementScale": 0.787524,
+  "environment": {
+    "biome": "ocean biome",
+    "region": "Asia"
+  },
+  "highest_available_res": 8192,
+  "id": "vb1kedrg",
+  "json": {
+    "contentLength": 12717,
+    "uri": "vb1kedrg.json"
+  },
+  "maps": [
+    {
+      "averageColor": "#FBFBFB",
+      "bitDepth": 32,
+      "colorSpace": "sRGB",
+      "contentLength": 137104696,
+      "maxIntensity": 255,
+      "mimeType": "image/x-exr",
+      "minIntensity": 221,
+      "name": "AO",
+      "physicalSize": "1x1",
+      "resolution": "8192x8192",
+      "type": "ao",
+      "uri": "vb1kedrg_8K_AO.exr"
+    },
+    {
+      "averageColor": "#FBFBFB",
+      "bitDepth": 8,
+      "colorSpace": "sRGB",
+      "contentLength": 16539976,
+      "maxIntensity": 255,
+      "mimeType": "image/jpeg",
+      "minIntensity": 221,
+      "name": "AO",
+      "physicalSize": "1x1",
+      "resolution": "8192x8192",
+      "type": "ao",
+      "uri": "vb1kedrg_8K_AO.jpg"
+    },
+    {
+      "averageColor": "#766B5D",
+      "bitDepth": 16,
+      "colorSpace": "sRGB",
+      "contentLength": 259903201,
+      "maxIntensity": 124,
+      "mimeType": "image/x-exr",
+      "minIntensity": 93,
+      "name": "Basecolor",
+      "physicalSize": "1x1",
+      "resolution": "8192x8192",
+      "type": "basecolor",
+      "uri": "vb1kedrg_8K_Basecolor.exr"
+    },
+    {
+      "averageColor": "#766B5D",
+      "bitDepth": 8,
+      "colorSpace": "sRGB",
+      "contentLength": 62435041,
+      "maxIntensity": 124,
+      "mimeType": "image/jpeg",
+      "minIntensity": 93,
+      "name": "Basecolor",
+      "physicalSize": "1x1",
+      "resolution": "8192x8192",
+      "type": "basecolor",
+      "uri": "vb1kedrg_8K_Basecolor.jpg"
+    },
+    {
+      "averageColor": "#808080",
+      "bitDepth": 32,
+      "colorSpace": "Linear",
+      "contentLength": 203721367,
+      "maxIntensity": 255,
+      "mimeType": "image/x-exr",
+      "minIntensity": 0,
+      "name": "Bump",
+      "physicalSize": "1x1",
+      "resolution": "8192x8192",
+      "type": "bump",
+      "uri": "vb1kedrg_8K_Bump.exr"
+    },
+    {
+      "averageColor": "#808080",
+      "bitDepth": 8,
+      "colorSpace": "Linear",
+      "contentLength": 21676656,
+      "maxIntensity": 255,
+      "mimeType": "image/jpeg",
+      "minIntensity": 0,
+      "name": "Bump",
+      "physicalSize": "1x1",
+      "resolution": "8192x8192",
+      "type": "bump",
+      "uri": "vb1kedrg_8K_Bump.jpg"
+    },
+    {
+      "averageColor": "#FFFFFF",
+      "bitDepth": 32,
+      "colorSpace": "sRGB",
+      "contentLength": 222237742,
+      "maxIntensity": 255,
+      "mimeType": "image/x-exr",
+      "minIntensity": 255,
+      "name": "Cavity",
+      "physicalSize": "1x1",
+      "resolution": "8192x8192",
+      "type": "cavity",
+      "uri": "vb1kedrg_8K_Cavity.exr"
+    },
+    {
+      "averageColor": "#FFFFFF",
+      "bitDepth": 8,
+      "colorSpace": "sRGB",
+      "contentLength": 56319858,
+      "maxIntensity": 255,
+      "mimeType": "image/jpeg",
+      "minIntensity": 255,
+      "name": "Cavity",
+      "physicalSize": "1x1",
+      "resolution": "8192x8192",
+      "type": "cavity",
+      "uri": "vb1kedrg_8K_Cavity.jpg"
+    },
+    {
+      "averageColor": "#818181",
+      "bitDepth": 32,
+      "colorSpace": "Linear",
+      "contentLength": 262594827,
+      "maxIntensity": 143,
+      "mimeType": "image/x-exr",
+      "minIntensity": 117,
+      "name": "Displacement",
+      "physicalSize": "1x1",
+      "resolution": "8192x8192",
+      "type": "displacement",
+      "uri": "vb1kedrg_8K_Displacement.exr"
+    },
+    {
+      "averageColor": "#818181",
+      "bitDepth": 8,
+      "colorSpace": "Linear",
+      "contentLength": 5531001,
+      "maxIntensity": 143,
+      "mimeType": "image/jpeg",
+      "minIntensity": 117,
+      "name": "Displacement",
+      "physicalSize": "1x1",
+      "resolution": "8192x8192",
+      "type": "displacement",
+      "uri": "vb1kedrg_8K_Displacement.jpg"
+    },
+    {
+      "averageColor": "#202020",
+      "bitDepth": 32,
+      "colorSpace": "Linear",
+      "contentLength": 218737686,
+      "maxIntensity": 36,
+      "mimeType": "image/x-exr",
+      "minIntensity": 26,
+      "name": "Gloss",
+      "physicalSize": "1x1",
+      "resolution": "8192x8192",
+      "type": "gloss",
+      "uri": "vb1kedrg_8K_Gloss.exr"
+    },
+    {
+      "averageColor": "#202020",
+      "bitDepth": 8,
+      "colorSpace": "Linear",
+      "contentLength": 24260933,
+      "maxIntensity": 36,
+      "mimeType": "image/jpeg",
+      "minIntensity": 26,
+      "name": "Gloss",
+      "physicalSize": "1x1",
+      "resolution": "8192x8192",
+      "type": "gloss",
+      "uri": "vb1kedrg_8K_Gloss.jpg"
+    },
+    {
+      "averageColor": "#8080FE",
+      "bitDepth": 16,
+      "colorSpace": "Linear",
+      "contentLength": 216530856,
+      "maxIntensity": 169,
+      "mimeType": "image/x-exr",
+      "minIntensity": 110,
+      "name": "Normal",
+      "physicalSize": "1x1",
+      "resolution": "8192x8192",
+      "type": "normal",
+      "uri": "vb1kedrg_8K_Normal.exr"
+    },
+    {
+      "averageColor": "#8080FE",
+      "bitDepth": 8,
+      "colorSpace": "Linear",
+      "contentLength": 110248283,
+      "maxIntensity": 169,
+      "mimeType": "image/jpeg",
+      "minIntensity": 110,
+      "name": "Normal",
+      "physicalSize": "1x1",
+      "resolution": "8192x8192",
+      "type": "normal",
+      "uri": "vb1kedrg_8K_Normal.jpg"
+    },
+    {
+      "averageColor": "#DFDFDF",
+      "bitDepth": 32,
+      "colorSpace": "Linear",
+      "contentLength": 197080803,
+      "maxIntensity": 229,
+      "mimeType": "image/x-exr",
+      "minIntensity": 219,
+      "name": "Roughness",
+      "physicalSize": "1x1",
+      "resolution": "8192x8192",
+      "type": "roughness",
+      "uri": "vb1kedrg_8K_Roughness.exr"
+    },
+    {
+      "averageColor": "#DFDFDF",
+      "bitDepth": 8,
+      "colorSpace": "Linear",
+      "contentLength": 22331728,
+      "maxIntensity": 229,
+      "mimeType": "image/jpeg",
+      "minIntensity": 219,
+      "name": "Roughness",
+      "physicalSize": "1x1",
+      "resolution": "8192x8192",
+      "type": "roughness",
+      "uri": "vb1kedrg_8K_Roughness.jpg"
+    },
+    {
+      "averageColor": "#383838",
+      "bitDepth": 16,
+      "colorSpace": "sRGB",
+      "contentLength": 267524377,
+      "maxIntensity": 56,
+      "mimeType": "image/x-exr",
+      "minIntensity": 56,
+      "name": "Specular",
+      "physicalSize": "1x1",
+      "resolution": "8192x8192",
+      "type": "specular",
+      "uri": "vb1kedrg_8K_Specular.exr"
+    },
+    {
+      "averageColor": "#383838",
+      "bitDepth": 8,
+      "colorSpace": "sRGB",
+      "contentLength": 39256958,
+      "maxIntensity": 56,
+      "mimeType": "image/jpeg",
+      "minIntensity": 56,
+      "name": "Specular",
+      "physicalSize": "1x1",
+      "resolution": "8192x8192",
+      "type": "specular",
+      "uri": "vb1kedrg_8K_Specular.jpg"
+    }
+  ],
+  "meta": [
+    {
+      "key": "scanArea",
+      "name": "Scan Area",
+      "value": "1x1 m"
+    },
+    {
+      "key": "height",
+      "name": "Height",
+      "value": "0.02 m"
+    },
+    {
+      "key": "tileable",
+      "name": "Tileable",
+      "value": true
+    },
+    {
+      "key": "tiling_directions",
+      "name": "Tiling Directions",
+      "value": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "key": "texelDensity",
+      "name": "Texel Density",
+      "value": "8192 px/m"
+    },
+    {
+      "key": "calibration",
+      "name": "Calibration",
+      "value": "GretagMacbeth ColorChecker Color Rendition Chart"
+    },
+    {
+      "key": "scanner",
+      "name": "Scanner",
+      "value": "MKX"
+    }
+  ],
+  "models": [],
+  "name": "Thai Rippled Beach Sand",
+  "pack": null,
+  "physicalSize": null,
+  "points": 2,
+  "previews": {
+    "images": [
+      {
+        "contentLength": 246684,
+        "resolution": "360x360",
+        "tags": [
+          "thumb"
+        ],
+        "uri": "vb1kedrg_Grid_360.png"
+      },
+      {
+        "contentLength": 334836,
+        "resolution": "420x420",
+        "tags": [
+          "thumb"
+        ],
+        "uri": "vb1kedrg_Grid_420.png"
+      },
+      {
+        "contentLength": 1014749,
+        "resolution": "720x720",
+        "tags": [
+          "thumb",
+          "retina"
+        ],
+        "uri": "vb1kedrg_Grid_720.png"
+      },
+      {
+        "contentLength": 1395584,
+        "resolution": "840x840",
+        "tags": [
+          "thumb",
+          "retina"
+        ],
+        "uri": "vb1kedrg_Grid_840.png"
+      },
+      {
+        "contentLength": 2611068,
+        "resolution": "1440x768",
+        "tags": [
+          "preview",
+          "clay"
+        ],
+        "uri": "vb1kedrg_PopupClay_1440.png"
+      },
+      {
+        "contentLength": 4863776,
+        "resolution": "1920x1080",
+        "tags": [
+          "preview",
+          "clay"
+        ],
+        "uri": "vb1kedrg_PopupClay_1920.png"
+      },
+      {
+        "contentLength": 10575825,
+        "resolution": "2880x1536",
+        "tags": [
+          "preview",
+          "clay",
+          "retina"
+        ],
+        "uri": "vb1kedrg_PopupClay_2880.png"
+      },
+      {
+        "contentLength": 20393352,
+        "resolution": "3840x2160",
+        "tags": [
+          "preview",
+          "clay",
+          "retina"
+        ],
+        "uri": "vb1kedrg_PopupClay_3840.png"
+      },
+      {
+        "contentLength": 3056375,
+        "resolution": "1440x768",
+        "tags": [
+          "preview",
+          "tiled"
+        ],
+        "uri": "vb1kedrg_PopupTiled_1440.png"
+      },
+      {
+        "contentLength": 5706599,
+        "resolution": "1920x1080",
+        "tags": [
+          "preview",
+          "tiled"
+        ],
+        "uri": "vb1kedrg_PopupTiled_1920.png"
+      },
+      {
+        "contentLength": 12120176,
+        "resolution": "2880x1536",
+        "tags": [
+          "preview",
+          "tiled",
+          "retina"
+        ],
+        "uri": "vb1kedrg_PopupTiled_2880.png"
+      },
+      {
+        "contentLength": 22982214,
+        "resolution": "3840x2160",
+        "tags": [
+          "preview",
+          "tiled",
+          "retina"
+        ],
+        "uri": "vb1kedrg_PopupTiled_3840.png"
+      },
+      {
+        "contentLength": 3030314,
+        "resolution": "1440x768",
+        "tags": [
+          "preview"
+        ],
+        "uri": "vb1kedrg_Popup_1440.png"
+      },
+      {
+        "contentLength": 5696572,
+        "resolution": "1920x1080",
+        "tags": [
+          "preview"
+        ],
+        "uri": "vb1kedrg_Popup_1920.png"
+      },
+      {
+        "contentLength": 12422474,
+        "resolution": "2880x1536",
+        "tags": [
+          "preview",
+          "retina"
+        ],
+        "uri": "vb1kedrg_Popup_2880.png"
+      },
+      {
+        "contentLength": 24151811,
+        "resolution": "3840x2160",
+        "tags": [
+          "preview",
+          "retina"
+        ],
+        "uri": "vb1kedrg_Popup_3840.png"
+      }
+    ],
+    "relativeSize": "1x1",
+    "scaleReferences": []
+  },
+  "process_date": "2024-04-17 00:42:30",
+  "properties": [],
+  "referencePreviews": {
+    "maps": [],
+    "models": []
+  },
+  "references": [],
+  "revised": false,
+  "revision": 0,
+  "semanticTags": {
+    "architectural_style": {},
+    "asset_type": "surface",
+    "color": [
+      "Brown"
+    ],
+    "contains": [
+      "sand",
+      "pebbles",
+      "gravel",
+      "footprints",
+      "ripples"
+    ],
+    "country": "Thailand",
+    "descriptive": [
+      "wet",
+      "Grainy",
+      "Rippled",
+      "trampled"
+    ],
+    "environment": [
+      "ocean biome"
+    ],
+    "industry": [
+      "archviz",
+      "games",
+      "VFX"
+    ],
+    "interior_exterior": [
+      "exterior"
+    ],
+    "locations": {
+      "Asia": {
+        "Thailand": {}
+      }
+    },
+    "maxSize": 1,
+    "minSize": 1,
+    "name": "Thai Rippled Beach Sand",
+    "region": "Asia",
+    "state": [
+      "old"
+    ],
+    "subject_matter": "nature",
+    "theme": [
+      "beach",
+      "sand",
+      "ocean",
+      "Seashore",
+      "Coastline",
+      "Sea",
+      "seaside",
+      "coastal",
+      "shoreline",
+      "beaches",
+      "thailand"
+    ]
+  },
+  "tags": [
+    "brown",
+    "beach",
+    "sand",
+    "ocean",
+    "seashore",
+    "coastline",
+    "sea",
+    "seaside",
+    "coastal",
+    "shoreline",
+    "beaches",
+    "thailand",
+    "seashells",
+    "pebbles",
+    "gravel",
+    "wet",
+    "grainy",
+    "rippled",
+    "washed",
+    "trampled"
+  ],
+  "texelDensity": 8192,
+  "texture_type": "basic",
+  "ue_plugin_archives": [
+    {
+      "contentLength": 313759570,
+      "gltfVersion": "2.0",
+      "tier": 0,
+      "type": "gltf",
+      "uri": "ue_plugin_archives/tier_0/vb1kedrg_tier_0.zip",
+      "version": 1
+    },
+    {
+      "contentLength": 96677275,
+      "gltfVersion": "2.0",
+      "tier": 1,
+      "type": "gltf",
+      "uri": "ue_plugin_archives/tier_1/vb1kedrg_tier_1.zip",
+      "version": 1
+    },
+    {
+      "contentLength": 23280829,
+      "gltfVersion": "2.0",
+      "tier": 2,
+      "type": "gltf",
+      "uri": "ue_plugin_archives/tier_2/vb1kedrg_tier_2.zip",
+      "version": 1
+    },
+    {
+      "contentLength": 1805769,
+      "gltfVersion": "2.0",
+      "tier": 3,
+      "type": "gltf",
+      "uri": "ue_plugin_archives/tier_3/vb1kedrg_tier_3.zip",
+      "version": 1
+    }
+  ],
+  "version": 2
+}
