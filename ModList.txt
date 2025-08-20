@@ -8,11 +8,32 @@
 			"mod_Page": ""
 		},
 		{
+			"mod_CreatorName": "Default",
+			"mod_Name": "Transient",
+			"setting_LoadOrder": 1,
+			"setting_Loaded": true,
+			"mod_Page": ""
+		},
+		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "RFs Basics",
 			"setting_LoadOrder": 5,
 			"setting_Loaded": true,
 			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RFs%20Basics/ModPage.html"
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "RFs Water",
+			"setting_LoadOrder": 6,
+			"setting_Loaded": true,
+			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/RFs%20Water/ModPage.html"
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "RFs Lava",
+			"setting_LoadOrder": 6,
+			"setting_Loaded": true,
+			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/RFs%20Lava/ModPage.html"
 		},
 		{
 			"mod_CreatorName": "RuneFace",
@@ -24,7 +45,7 @@
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "RFs Weather",
-			"setting_LoadOrder": 4,
+			"setting_LoadOrder": 5,
 			"setting_Loaded": true,
 			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RFs%20Weather/ModPage.html"
 		},
@@ -37,17 +58,17 @@
 		},
 		{
 			"mod_CreatorName": "RuneFace",
-			"mod_Name": "RFs Water",
-			"setting_LoadOrder": 6,
-			"setting_Loaded": true,
-			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/RFs%20Water/ModPage.html"
-		},
-		{
-			"mod_CreatorName": "RuneFace",
 			"mod_Name": "Extra Ground Cover",
 			"setting_LoadOrder": 8,
 			"setting_Loaded": true,
 			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/Extra%20Ground%20Cover/ModPage.html"
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "Night Mode",
+			"setting_LoadOrder": 9,
+			"setting_Loaded": false,
+			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/Night%20Mode/ModPage.html"
 		}
 	]
 }
