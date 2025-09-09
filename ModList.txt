@@ -68,7 +68,7 @@
 			"mod_Name": "Night Mode",
 			"setting_LoadOrder": 9,
 			"setting_Loaded": true,
-			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/Night%20Mode/ModPage.html"
+			"mod_Page": ""
 		}
 	]
 }
