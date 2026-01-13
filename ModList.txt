@@ -76,13 +76,6 @@
 			"setting_LoadOrder": 9,
 			"setting_Loaded": true,
 			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/Realistic%20Foliage/ModPage.html"
-		},
-		{
-			"mod_CreatorName": "RuneFace",
-			"mod_Name": "lod test",
-			"setting_LoadOrder": 10,
-			"setting_Loaded": false,
-			"mod_Page": ""
 		}
 	]
 }
