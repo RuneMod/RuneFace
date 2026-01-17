@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated using SpeedTree tools -->
+<Materials Count="2" Packer="_Standard">
+	<Material ID="9" Name="DatePalmBark_Mat" TwoSided="0" UserData="" VertexOpacity="0" FlipNormalsOnBackside="0">
+		<Map Index="0" File="DatePalmBark_Color.png" />
+		<Map Index="1" File="DatePalmBark_Normal.png" />
+		<Map Index="2" File="DatePalmBark_SS.png" />
+	</Material>
+	<Material ID="10" Name="DatePalmFrond_Mat" TwoSided="0" UserData="" VertexOpacity="0" FlipNormalsOnBackside="0">
+		<Map Index="0" File="DatePalmFrond_Color.png" />
+		<Map Index="1" File="DatePalmFrond_Normal.png" />
+		<Map Index="2" File="DatePalmFrond_SS.png" />
+	</Material>
+</Materials>
