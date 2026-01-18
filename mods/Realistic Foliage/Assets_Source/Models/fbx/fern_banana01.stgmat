@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated using SpeedTree tools -->
+<Materials Count="2" Packer="_Standard">
+	<Material ID="2" Name="BananaFrond_TwoSided_Mat" TwoSided="0" UserData="" VertexOpacity="0" FlipNormalsOnBackside="1">
+		<Map Index="0" File="BananaFrond_TwoSided_Color.png" />
+		<Map Index="1" File="BananaFrond_TwoSided_Normal.png" />
+		<Map Index="2" File="BananaFrond_TwoSided_SS.png" />
+	</Material>
+	<Material ID="9" Name="BananaStalk_Mat" TwoSided="0" UserData="" VertexOpacity="0" FlipNormalsOnBackside="1">
+		<Map Index="0" File="BananaStalk_Color.png" />
+		<Map Index="1" File="BananaStalk_Normal.png" />
+		<Map Index="2" File="BananaStalk_SS.png" />
+	</Material>
+</Materials>

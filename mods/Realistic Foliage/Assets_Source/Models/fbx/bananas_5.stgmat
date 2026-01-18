@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated using SpeedTree tools -->
+<Materials Count="1" Packer="_Standard">
+	<Material ID="4" Name="BananaFlower_Mat" TwoSided="0" UserData="" VertexOpacity="0" FlipNormalsOnBackside="1">
+		<Map Index="0" File="BananaFlower_Color.png" />
+		<Map Index="1" File="BananaFlower_Normal.png" />
+		<Map Index="2" File="BananaFlower_SS.png" />
+	</Material>
+</Materials>

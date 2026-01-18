@@ -14,6 +14,9 @@ function Convert-GLBtoFBX {
         [string]$fbxFile
     )
     & $blenderPath --background --python-expr "import bpy; bpy.ops.object.select_all(action='DESELECT'); bpy.ops.object.select_all(action='SELECT'); bpy.ops.object.delete(); bpy.ops.import_scene.gltf(filepath='$($glbFile -replace '\\', '\\\\')'); bpy.ops.export_scene.fbx(filepath='$($fbxFile -replace '\\', '\\\\')'); bpy.ops.wm.quit_blender()"
+
+
+[System.Media.SystemSounds]::Asterisk.Play()
 }
 
 function Convert-FBXtoGLB {
@@ -22,6 +25,8 @@ function Convert-FBXtoGLB {
         [string]$glbFile
     )
     & $blenderPath --background --python-expr "import bpy; bpy.ops.object.select_all(action='DESELECT'); bpy.ops.object.select_all(action='SELECT'); bpy.ops.object.delete(); bpy.ops.import_scene.fbx(filepath='$($fbxFile -replace '\\', '\\\\')'); bpy.ops.export_scene.gltf(filepath='$($glbFile -replace '\\', '\\\\')'); bpy.ops.wm.quit_blender()"
+
+[System.Media.SystemSounds]::Asterisk.Play()
 }
 
 while ($true) {
