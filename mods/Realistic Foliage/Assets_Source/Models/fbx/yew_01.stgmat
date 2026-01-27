@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated using SpeedTree tools -->
+<Materials Count="3" Packer="_Standard">
+	<Material ID="4" Name="Yew_Branches_01_Mat" TwoSided="0" UserData="" VertexOpacity="0" FlipNormalsOnBackside="0">
+		<Map Index="0" File="Yew_Branches_01_Color.png" />
+		<Map Index="1" File="Yew_Branches_01_Normal.png" />
+		<Map Index="2" File="Yew_Branches_01_SS.png" />
+	</Material>
+	<Material ID="10" Name="Yew_Bark_Mat" TwoSided="0" UserData="" VertexOpacity="0" FlipNormalsOnBackside="0">
+		<Map Index="0" File="Yew_Bark_Color.png" />
+		<Map Index="1" File="Yew_Bark_Normal.png" />
+		<Map Index="2" File="Yew_Bark_SS.png" />
+	</Material>
+	<Material ID="11" Name="RedwoodNeedles_01_Mat" TwoSided="0" UserData="" VertexOpacity="0" FlipNormalsOnBackside="0">
+		<Map Index="0" File="RedwoodNeedles_01_Color.png" />
+		<Map Index="1" File="RedwoodNeedles_01_Normal.png" />
+		<Map Index="2" File="RedwoodNeedles_01_SS.png" />
+	</Material>
+</Materials>
