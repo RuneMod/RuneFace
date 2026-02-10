@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated using SpeedTree tools -->
+<Materials Count="3" Packer="_Standard">
+	<Material ID="2" Name="SugarMapleLeaves_2_Mat" TwoSided="0" UserData="" VertexOpacity="0" FlipNormalsOnBackside="0">
+		<Map Index="0" File="SugarMapleLeaves_2_Color.png" />
+		<Map Index="1" File="SugarMapleLeaves_2_Normal.png" />
+		<Map Index="2" File="SugarMapleLeaves_2_SS.png" />
+	</Material>
+	<Material ID="3" Name="SugarMapleBark_Mat" TwoSided="0" UserData="" VertexOpacity="0" FlipNormalsOnBackside="0">
+		<Map Index="0" File="SugarMapleBark_Color.png" />
+		<Map Index="1" File="SugarMapleBark_Normal.png" />
+		<Map Index="2" File="SugarMapleBark_SS.png" />
+	</Material>
+	<Material ID="7" Name="Branches_09_Mat" TwoSided="0" UserData="" VertexOpacity="0" FlipNormalsOnBackside="0">
+		<Map Index="0" File="Branches_09_Color.png" />
+		<Map Index="1" File="Branches_09_Normal.png" />
+		<Map Index="2" File="Branches_09_SS.png" />
+	</Material>
+</Materials>
