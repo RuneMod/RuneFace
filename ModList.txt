@@ -74,7 +74,7 @@
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "Realistic Foliage",
 			"setting_LoadOrder": 9,
-			"setting_Loaded": true,
+			"setting_Loaded": false,
 			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/Realistic%20Foliage/ModPage.html"
 		}
 	]
