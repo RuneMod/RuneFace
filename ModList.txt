@@ -82,7 +82,7 @@
 			"mod_Name": "RFs TestMod",
 			"setting_LoadOrder": 10,
 			"setting_Loaded": true,
-			"mod_Page": ""
+			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/RFs%20TestMod/ModPage.html"
 		}
 	]
 }
