@@ -1,6 +1,6 @@
 {
 	"Mod_Format": 1,
-	"Mod_Version": 186,
+	"Mod_Version": 187,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "Night Mode",
 	"Mod_Description": "Makes it night everywhere",
@@ -23,12 +23,12 @@
 		"Assets/15/25769803779",
 		"Assets/15/25769803781",
 		"Assets/15/25769803782",
+		"Assets/8/25769803863",
+		"Assets/8/25769803864",
 		"Assets/Sounds/25769806561.aac",
 		"Assets/Sounds/25769806561.ogg",
 		"Assets/Sounds/25769806563.ogg",
 		"Assets/Sounds/25769806623.ogg",
-		"Assets/8/25769803863",
-		"Assets/8/25769803864",
 		"Assets_Source/Sounds/audacity/nightDesert_01.aup3",
 		"Assets_Source/Sounds/audacity/nightForest_01.aup3",
 		"Assets_Source/Sounds/audacity/nightForest_02.aup3",
@@ -38,9 +38,9 @@
 		"Metadata.txt"
 	],
 	"Files_TimeStamps": [
-		"1781017485",
-		"1781017485",
-		"1781017485",
+		"1782556592",
+		"1782556592",
+		"1782556592",
 		"1781017485",
 		"1781017485",
 		"1781017485",
@@ -49,7 +49,7 @@
 		"1781017485",
 		"1781017484",
 		"1781879739",
-		"1781601233",
+		"1782908188",
 		"1781017484",
 		"1781017484",
 		"1781017484",
@@ -64,7 +64,7 @@
 		"1781017485",
 		"1781017485",
 		"1781017485",
-		"1781878716"
+		"1782570774"
 	],
 	"Dependencies": [
 		{
