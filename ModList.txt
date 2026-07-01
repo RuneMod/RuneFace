@@ -67,7 +67,7 @@
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "Night Mode",
 			"setting_LoadOrder": 9,
-			"setting_Loaded": true,
+			"setting_Loaded": false,
 			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/Night%20Mode/ModPage.html"
 		},
 		{
@@ -76,6 +76,13 @@
 			"setting_LoadOrder": 9,
 			"setting_Loaded": true,
 			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/Realistic%20Foliage/ModPage.html"
+		},
+		{
+			"mod_CreatorName": "RuneFace",
+			"mod_Name": "RFs TestMod",
+			"setting_LoadOrder": 10,
+			"setting_Loaded": true,
+			"mod_Page": ""
 		}
 	]
 }

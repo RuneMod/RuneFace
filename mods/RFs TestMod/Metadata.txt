@@ -1,0 +1,26 @@
+{
+	"Mod_Format": 0,
+	"Mod_Version": 2,
+	"Mod_CreatorName": "RuneFace",
+	"Mod_Name": "RFs TestMod",
+	"Mod_Description": "my testMod",
+	"Mod_HomePage": "",
+	"Mod_Zip": "",
+	"Mod_DefaultLoadOrder": 10,
+	"Mod_DefaultEnabled": true,
+	"Files": [
+		"index.html",
+		"ModPage.html",
+		"ModPage_files/ModPageThumbnail.png",
+		"Assets/1/0",
+		"Metadata.txt"
+	],
+	"Files_TimeStamps": [
+		"1782943302",
+		"1782943302",
+		"1782943302",
+		"1782943204",
+		"1782943302"
+	],
+	"Dependencies": []
+}
