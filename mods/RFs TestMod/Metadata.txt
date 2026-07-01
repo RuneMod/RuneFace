@@ -1,11 +1,11 @@
 {
-	"Mod_Format": 0,
-	"Mod_Version": 2,
+	"Mod_Format": 1,
+	"Mod_Version": 3,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "RFs TestMod",
 	"Mod_Description": "my testMod",
 	"Mod_HomePage": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/RFs%20TestMod/ModPage.html",
-	"Mod_Zip": "",
+	"Mod_Zip": "https://files.runemod.net/modhub/RFs%20TestMod_RuneFace.zip",
 	"Mod_DefaultLoadOrder": 10,
 	"Mod_DefaultEnabled": true,
 	"Files": [
@@ -16,11 +16,11 @@
 		"Metadata.txt"
 	],
 	"Files_TimeStamps": [
-		"1782943414",
-		"1782943414",
-		"1782943414",
+		"1782944472",
+		"1782944472",
+		"1782944472",
 		"1782943204",
-		"1782943414"
+		"1782944472"
 	],
 	"Dependencies": []
 }
