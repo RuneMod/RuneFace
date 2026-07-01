@@ -1,5 +1,5 @@
 {
 	"userId": 6,
-	"assetIdTracker": 3976,
+	"assetIdTracker": 3977,
 	"userName": "RuneFace"
 }
