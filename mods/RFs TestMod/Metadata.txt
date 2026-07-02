@@ -1,6 +1,6 @@
 {
 	"Mod_Format": 1,
-	"Mod_Version": 3,
+	"Mod_Version": 4,
 	"Mod_CreatorName": "RuneFace",
 	"Mod_Name": "RFs TestMod",
 	"Mod_Description": "my testMod",
@@ -13,6 +13,7 @@
 		"ModPage.html",
 		"ModPage_files/ModPageThumbnail.png",
 		"Assets/1/0",
+		"Assets/7/0",
 		"Metadata.txt"
 	],
 	"Files_TimeStamps": [
@@ -20,7 +21,8 @@
 		"1782944472",
 		"1782944472",
 		"1782943204",
-		"1782944472"
+		"1782984052",
+		"1782944482"
 	],
 	"Dependencies": []
 }
