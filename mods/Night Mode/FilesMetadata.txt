@@ -1,0 +1,36 @@
+{
+	"mod_Version": 188,
+	"chunks": [
+		{
+			"chunkId": 0,
+			"timeStamp": 1783023277,
+			"files": [
+				"Assets/15/25769803777",
+				"Assets/15/25769803778",
+				"Assets/15/25769803779",
+				"Assets/15/25769803781",
+				"Assets/15/25769803782",
+				"Assets/8/25769803863",
+				"Assets/8/25769803864",
+				"Assets/Sounds/25769806561.aac",
+				"Assets/Sounds/25769806561.ogg",
+				"Assets/Sounds/25769806563.ogg",
+				"Assets/Sounds/25769806623.ogg"
+			]
+		}
+	],
+	"files": [
+		"Assets/15/25769803777",
+		"Assets/15/25769803778",
+		"Assets/15/25769803779",
+		"Assets/15/25769803781",
+		"Assets/15/25769803782",
+		"Assets/8/25769803863",
+		"Assets/8/25769803864",
+		"Assets/Sounds/25769806561.aac",
+		"Assets/Sounds/25769806561.ogg",
+		"Assets/Sounds/25769806563.ogg",
+		"Assets/Sounds/25769806623.ogg"
+	],
+	"files_TimeStamp": [ 1781017484, 1781879739, 1782908188, 1781017484, 1781017484, 1781017484, 1781017484, 1781017484, 1781017484, 1781017484, 1781017484 ]
+}

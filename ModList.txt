@@ -19,7 +19,7 @@
 			"mod_Name": "RFs Basics",
 			"setting_LoadOrder": 5,
 			"setting_Loaded": true,
-			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RFs%20Basics/ModPage.html"
+			"mod_Page": "https://files.runemod.net/modhub/RuneFace/RFs%20Basics/ModPage.html"
 		},
 		{
 			"mod_CreatorName": "RuneFace",
@@ -33,14 +33,14 @@
 			"mod_Name": "RFs Lava",
 			"setting_LoadOrder": 6,
 			"setting_Loaded": true,
-			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/RFs%20Lava/ModPage.html"
+			"mod_Page": "https://files.runemod.net/modhub/RuneFace/RFs%20Lava/ModPage.html"
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "RFs LightSources",
 			"setting_LoadOrder": 3,
 			"setting_Loaded": true,
-			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RFs%20LightSources/ModPage.html"
+			"mod_Page": "https://files.runemod.net/modhub/RuneFace/RFs%20LightSources/ModPage.html"
 		},
 		{
 			"mod_CreatorName": "RuneFace",
@@ -54,28 +54,28 @@
 			"mod_Name": "Textured World",
 			"setting_LoadOrder": 7,
 			"setting_Loaded": true,
-			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/Textured%20World/ModPage.html"
+			"mod_Page": "https://files.runemod.net/modhub/RuneFace/Textured%20World/ModPage.html"
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "Extra Ground Cover",
 			"setting_LoadOrder": 8,
 			"setting_Loaded": true,
-			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/Extra%20Ground%20Cover/ModPage.html"
+			"mod_Page": "https://files.runemod.net/modhub/RuneFace/Extra%20Ground%20Cover/ModPage.html"
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "Night Mode",
 			"setting_LoadOrder": 9,
-			"setting_Loaded": false,
-			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/Night%20Mode/ModPage.html"
+			"setting_Loaded": true,
+			"mod_Page": "https://files.runemod.net/modhub/RuneFace/Night%20Mode/ModPage.html"
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "Realistic Foliage",
 			"setting_LoadOrder": 9,
 			"setting_Loaded": true,
-			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/Realistic%20Foliage/ModPage.html"
+			"mod_Page": "https://files.runemod.net/modhub/RuneFace/Realistic%20Foliage/ModPage.html"
 		},
 		{
 			"mod_CreatorName": "RuneFace",
