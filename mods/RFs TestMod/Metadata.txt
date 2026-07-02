@@ -1,28 +1,12 @@
 {
-	"Mod_Format": 1,
-	"Mod_Version": 4,
-	"Mod_CreatorName": "RuneFace",
-	"Mod_Name": "RFs TestMod",
-	"Mod_Description": "my testMod",
-	"Mod_HomePage": "https://raw.githubusercontent.com/RuneMod/RuneFace/refs/heads/master/mods/RFs%20TestMod/ModPage.html",
-	"Mod_Zip": "https://files.runemod.net/modhub/RFs%20TestMod_RuneFace.zip",
-	"Mod_DefaultLoadOrder": 10,
-	"Mod_DefaultEnabled": true,
-	"Files": [
-		"index.html",
-		"ModPage.html",
-		"ModPage_files/ModPageThumbnail.png",
-		"Assets/1/0",
-		"Assets/7/0",
-		"Metadata.txt"
-	],
-	"Files_TimeStamps": [
-		"1782944472",
-		"1782944472",
-		"1782944472",
-		"1782943204",
-		"1782984052",
-		"1782944482"
-	],
-	"Dependencies": []
+	"mod_Format": 1,
+	"mod_Version": 6,
+	"mod_CreatorName": "RuneFace",
+	"mod_Name": "RFs TestMod",
+	"mod_Description": "my testMod",
+	"mod_HomePage": "https://files.runemod.net/modhub/RuneFace/RFs%20TestMod/ModPage.html",
+	"mod_Zip": "https://files.runemod.net/modhub/RFs%20TestMod_RuneFace.zip",
+	"mod_DefaultLoadOrder": 10,
+	"mod_DefaultEnabled": true,
+	"dependencies": []
 }

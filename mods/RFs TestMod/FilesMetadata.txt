@@ -1,0 +1,18 @@
+{
+	"mod_Version": 6,
+	"chunks": [
+		{
+			"chunkId": 0,
+			"timeStamp": 1782987184,
+			"files": [
+				"Assets/1/0",
+				"Assets/7/0"
+			]
+		}
+	],
+	"files": [
+		"Assets/1/0",
+		"Assets/7/0"
+	],
+	"files_TimeStamp": [ 1782987184, 1782984052 ]
+}
