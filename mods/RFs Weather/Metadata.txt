@@ -1,10 +1,10 @@
 {
 	"mod_Format": 1,
-	"mod_Version": 3155,
+	"mod_Version": 3156,
 	"mod_CreatorName": "RuneFace",
 	"mod_Name": "RFs Weather",
 	"mod_Description": "Adds weather and lighting to different areas.",
-	"mod_HomePage": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RFs%20Weather/ModPage.html",
+	"mod_HomePage": "https://files.runemod.net/modhub/RuneFace/RFs%20Weather/ModPage.html",
 	"mod_Zip": "https://files.runemod.net/modhub/RFs%20Weather_RuneFace.zip",
 	"mod_DefaultLoadOrder": 5,
 	"mod_DefaultEnabled": false,

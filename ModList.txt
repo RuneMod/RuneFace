@@ -47,7 +47,7 @@
 			"mod_Name": "RFs Weather",
 			"setting_LoadOrder": 5,
 			"setting_Loaded": true,
-			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RFs%20Weather/ModPage.html"
+			"mod_Page": "https://files.runemod.net/modhub/RuneFace/RFs%20Weather/ModPage.html"
 		},
 		{
 			"mod_CreatorName": "RuneFace",
