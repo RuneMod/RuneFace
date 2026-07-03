@@ -1,6 +1,6 @@
 {
 	"mod_Format": 1,
-	"mod_Version": 884,
+	"mod_Version": 889,
 	"mod_CreatorName": "RuneFace",
 	"mod_Name": "Realistic Foliage",
 	"mod_Description": "Makes foliage more realistic",

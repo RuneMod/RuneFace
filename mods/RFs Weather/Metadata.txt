@@ -1,6 +1,6 @@
 {
 	"mod_Format": 1,
-	"mod_Version": 3156,
+	"mod_Version": 3162,
 	"mod_CreatorName": "RuneFace",
 	"mod_Name": "RFs Weather",
 	"mod_Description": "Adds weather and lighting to different areas.",

@@ -1,6 +1,6 @@
 {
 	"mod_Format": 1,
-	"mod_Version": 33,
+	"mod_Version": 40,
 	"mod_CreatorName": "RuneFace",
 	"mod_Name": "RFs TestMod",
 	"mod_Description": "my testMod",
