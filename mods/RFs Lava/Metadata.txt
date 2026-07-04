@@ -1,6 +1,6 @@
 {
 	"mod_Format": 1,
-	"mod_Version": 246,
+	"mod_Version": 248,
 	"mod_CreatorName": "RuneFace",
 	"mod_Name": "RFs Lava",
 	"mod_Description": "Adds more realistic lava",
