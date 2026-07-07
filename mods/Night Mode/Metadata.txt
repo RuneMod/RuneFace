@@ -1,6 +1,6 @@
 {
 	"mod_Format": 1,
-	"mod_Version": 196,
+	"mod_Version": 197,
 	"mod_CreatorName": "RuneFace",
 	"mod_Name": "Night Mode",
 	"mod_Description": "Makes it night everywhere",

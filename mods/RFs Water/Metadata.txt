@@ -1,6 +1,6 @@
 {
 	"mod_Format": 1,
-	"mod_Version": 789,
+	"mod_Version": 790,
 	"mod_CreatorName": "RuneFace",
 	"mod_Name": "RFs Water",
 	"mod_Description": "Makes water more realistic",
