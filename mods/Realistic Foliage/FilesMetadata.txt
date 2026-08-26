@@ -1,9 +1,29 @@
 {
-	"mod_Version": 891,
+	"mod_Version": 899,
 	"chunks": [
 		{
-			"chunkId": 8,
-			"timeStamp": 1783116365,
+			"chunkId": 10,
+			"timestamp": 1783116366,
+			"files": [
+				"Assets/Textures/25769807477_BaseColour.dds",
+				"Assets/Textures/25769807477_MetallicRoughness.dds",
+				"Assets/Textures/25769807477_Normal.dds",
+				"Assets/Textures/25769807478_BaseColour.dds",
+				"Assets/Textures/25769807478_Normal.dds",
+				"Assets/Textures/25769807479_BaseColour.dds",
+				"Assets/Textures/25769807479_MetallicRoughness.dds",
+				"Assets/Textures/25769807479_Normal.dds",
+				"Assets/Textures/25769807522_BaseColour.dds",
+				"Assets/Textures/25769807523_BaseColour.dds",
+				"Assets/Textures/25769807523_MetallicRoughness.dds",
+				"Assets/Textures/25769807523_Normal.dds",
+				"Assets/Textures/25769807524_BaseColour.dds",
+				"Assets/Textures/25769807524_MetallicRoughness.dds"
+			]
+		},
+		{
+			"chunkId": 12,
+			"timestamp": 1787780874,
 			"files": [
 				"Assets/1/1",
 				"Assets/1/10",
@@ -47,8 +67,8 @@
 			]
 		},
 		{
-			"chunkId": 9,
-			"timeStamp": 1783116366,
+			"chunkId": 13,
+			"timestamp": 1787780875,
 			"files": [
 				"Assets/Textures/25769807307_MetallicRoughness.dds",
 				"Assets/Textures/25769807307_Normal.dds",
@@ -82,48 +102,10 @@
 			]
 		},
 		{
-			"chunkId": 10,
-			"timeStamp": 1783116366,
-			"files": [
-				"Assets/Textures/25769807477_BaseColour.dds",
-				"Assets/Textures/25769807477_MetallicRoughness.dds",
-				"Assets/Textures/25769807477_Normal.dds",
-				"Assets/Textures/25769807478_BaseColour.dds",
-				"Assets/Textures/25769807478_Normal.dds",
-				"Assets/Textures/25769807479_BaseColour.dds",
-				"Assets/Textures/25769807479_MetallicRoughness.dds",
-				"Assets/Textures/25769807479_Normal.dds",
-				"Assets/Textures/25769807522_BaseColour.dds",
-				"Assets/Textures/25769807523_BaseColour.dds",
-				"Assets/Textures/25769807523_MetallicRoughness.dds",
-				"Assets/Textures/25769807523_Normal.dds",
-				"Assets/Textures/25769807524_BaseColour.dds",
-				"Assets/Textures/25769807524_MetallicRoughness.dds"
-			]
-		},
-		{
-			"chunkId": 11,
-			"timeStamp": 1783116366,
+			"chunkId": 14,
+			"timestamp": 1787780875,
 			"files": [
 				"Assets/Textures/25769807524_Normal.dds",
-				"Assets/Textures/25769807525_BaseColour.dds",
-				"Assets/Textures/25769807525_MetallicRoughness.dds",
-				"Assets/Textures/25769807525_Normal.dds",
-				"Assets/Textures/25769807551_BaseColour.dds",
-				"Assets/Textures/25769807551_MetallicRoughness.dds",
-				"Assets/Textures/25769807551_Normal.dds",
-				"Assets/Textures/9_BaseColour.dds",
-				"Assets/Textures/9_MetallicRoughness.dds",
-				"Assets/Textures/9_Normal.dds",
-				"Assets/Textures/25769807525_BaseColour.dds",
-				"Assets/Textures/25769807525_MetallicRoughness.dds",
-				"Assets/Textures/25769807525_Normal.dds",
-				"Assets/Textures/25769807551_BaseColour.dds",
-				"Assets/Textures/25769807551_MetallicRoughness.dds",
-				"Assets/Textures/25769807551_Normal.dds",
-				"Assets/Textures/9_BaseColour.dds",
-				"Assets/Textures/9_MetallicRoughness.dds",
-				"Assets/Textures/9_Normal.dds",
 				"Assets/Textures/25769807525_BaseColour.dds",
 				"Assets/Textures/25769807525_MetallicRoughness.dds",
 				"Assets/Textures/25769807525_Normal.dds",
@@ -230,5 +212,5 @@
 		"Assets/Textures/9_MetallicRoughness.dds",
 		"Assets/Textures/9_Normal.dds"
 	],
-	"files_TimeStamp": [ 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783116362, 1783116362, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123 ]
+	"files_TimeStamp": [ 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783116362, 1787778886, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028122, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1787744665, 1783028123, 1783028123, 1783028123, 1783028123, 1787218171, 1787778876, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1787746033, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123, 1783028123 ]
 }
