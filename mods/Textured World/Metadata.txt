@@ -1,6 +1,6 @@
 {
 	"mod_Format": 1,
-	"mod_Version": 2968,
+	"mod_Version": 2977,
 	"mod_CreatorName": "RuneFace",
 	"mod_Name": "Textured World",
 	"mod_Description": "Brings texture to runescape!",
