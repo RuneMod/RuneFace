@@ -1,19 +1,19 @@
 {
 	"mod_Format": 1,
-	"mod_Version": 223,
+	"mod_Version": 224,
 	"mod_CreatorName": "RuneFace",
 	"mod_Name": "Night Mode",
 	"mod_Description": "Makes it night everywhere",
 	"mod_HomePage": "https://files.runemod.net/modhub/RuneFace/Night%20Mode/ModPage.html",
 	"mod_Zip": "https://files.runemod.net/modhub/Night%20Mode_RuneFace.zip",
-	"mod_DefaultLoadOrder": 9,
+	"mod_DefaultLoadOrder": 6,
 	"mod_DefaultEnabled": false,
 	"dependencies": [
 		{
 			"mod_Name": "RFs Weather",
 			"mod_CreatorName": "RuneFace",
 			"setting_LoadOrder": 5,
-			"mod_Page": "https://raw.githubusercontent.com/RuneMod/RuneFace/master/mods/RFs%20Weather/ModPage.html"
+			"mod_Page": "https://files.runemod.net/modhub/RuneFace/RFs%20Weather/ModPage.html"
 		}
 	]
 }

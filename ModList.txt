@@ -66,8 +66,8 @@
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "Night Mode",
-			"setting_LoadOrder": 9,
-			"setting_Loaded": false,
+			"setting_LoadOrder": 6,
+			"setting_Loaded": true,
 			"mod_Page": "https://files.runemod.net/modhub/RuneFace/Night%20Mode/ModPage.html"
 		},
 		{
