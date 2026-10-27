@@ -1,9 +1,9 @@
 {
-	"mod_Version": 306,
+	"mod_Version": 308,
 	"chunks": [
 		{
-			"chunkId": 6,
-			"timestamp": 1790954074,
+			"chunkId": 7,
+			"timestamp": 1792427174,
 			"files": [
 				"Assets/12/11828",
 				"Assets/12/12078",
@@ -85,11 +85,8 @@
 		"Assets/7/180",
 		"Assets/7/189",
 		"Assets/7/228",
-		"Assets/Textures/25769807269_BaseColour.dds",
 		"Assets/7/24",
 		"Assets/7/25",
-		"Assets/Textures/25769807269_MetallicRoughness.dds",
-		"Assets/Textures/25769807269_Normal.dds",
 		"Assets/7/25769803830",
 		"Assets/7/26",
 		"Assets/7/56",
@@ -98,7 +95,10 @@
 		"Assets/7/61",
 		"Assets/7/68",
 		"Assets/7/70",
-		"Assets/7/72"
+		"Assets/7/72",
+		"Assets/Textures/25769807269_BaseColour.dds",
+		"Assets/Textures/25769807269_MetallicRoughness.dds",
+		"Assets/Textures/25769807269_Normal.dds"
 	],
 	"files_TimeStamp": [
 		1781017484,
@@ -134,17 +134,17 @@
 		1781090805,
 		1781017484,
 		1781017484,
+		1792427146,
+		1781017484,
+		1781017484,
+		1781017484,
+		1781017484,
+		1781017484,
+		1781017484,
+		1781017484,
+		1781017484,
 		1781017484,
 		1790373678,
-		1781017484,
-		1781017484,
-		1781017484,
-		1781017484,
-		1781017484,
-		1781017484,
-		1781017484,
-		1781017484,
-		1781017484,
 		1781017484
 	]
 }
