@@ -5,84 +5,96 @@
 			"mod_Name": "Default",
 			"setting_LoadOrder": 0,
 			"setting_Loaded": true,
-			"mod_Page": ""
+			"mod_Page": "",
+			"isUpdating": false
 		},
 		{
 			"mod_CreatorName": "Default",
 			"mod_Name": "Transient",
 			"setting_LoadOrder": 1,
 			"setting_Loaded": true,
-			"mod_Page": ""
+			"mod_Page": "",
+			"isUpdating": false
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "RFs Basics",
 			"setting_LoadOrder": 5,
 			"setting_Loaded": true,
-			"mod_Page": "https://files.runemod.net/modhub/RuneFace/RFs%20Basics/ModPage.html"
+			"mod_Page": "https://files.runemod.net/modhub/RuneFace/RFs%20Basics/ModPage.html",
+			"isUpdating": false
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "RFs Water",
 			"setting_LoadOrder": 6,
 			"setting_Loaded": true,
-			"mod_Page": "https://files.runemod.net/modhub/RuneFace/RFs%20Water/ModPage.html"
+			"mod_Page": "https://files.runemod.net/modhub/RuneFace/RFs%20Water/ModPage.html",
+			"isUpdating": false
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "RFs Lava",
 			"setting_LoadOrder": 6,
 			"setting_Loaded": true,
-			"mod_Page": "https://files.runemod.net/modhub/RuneFace/RFs%20Lava/ModPage.html"
+			"mod_Page": "https://files.runemod.net/modhub/RuneFace/RFs%20Lava/ModPage.html",
+			"isUpdating": false
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "RFs LightSources",
 			"setting_LoadOrder": 3,
 			"setting_Loaded": true,
-			"mod_Page": "https://files.runemod.net/modhub/RuneFace/RFs%20LightSources/ModPage.html"
+			"mod_Page": "https://files.runemod.net/modhub/RuneFace/RFs%20LightSources/ModPage.html",
+			"isUpdating": false
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "RFs Weather",
 			"setting_LoadOrder": 5,
 			"setting_Loaded": true,
-			"mod_Page": "https://files.runemod.net/modhub/RuneFace/RFs%20Weather/ModPage.html"
+			"mod_Page": "https://files.runemod.net/modhub/RuneFace/RFs%20Weather/ModPage.html",
+			"isUpdating": false
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "Textured World",
 			"setting_LoadOrder": 7,
 			"setting_Loaded": true,
-			"mod_Page": "https://files.runemod.net/modhub/RuneFace/Textured%20World/ModPage.html"
+			"mod_Page": "https://files.runemod.net/modhub/RuneFace/Textured%20World/ModPage.html",
+			"isUpdating": false
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "Extra Ground Cover",
 			"setting_LoadOrder": 8,
 			"setting_Loaded": true,
-			"mod_Page": "https://files.runemod.net/modhub/RuneFace/Extra%20Ground%20Cover/ModPage.html"
+			"mod_Page": "https://files.runemod.net/modhub/RuneFace/Extra%20Ground%20Cover/ModPage.html",
+			"isUpdating": false
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "Night Mode",
 			"setting_LoadOrder": 6,
 			"setting_Loaded": true,
-			"mod_Page": "https://files.runemod.net/modhub/RuneFace/Night%20Mode/ModPage.html"
+			"mod_Page": "https://files.runemod.net/modhub/RuneFace/Night%20Mode/ModPage.html",
+			"isUpdating": false
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "Realistic Foliage",
 			"setting_LoadOrder": 9,
 			"setting_Loaded": true,
-			"mod_Page": "https://files.runemod.net/modhub/RuneFace/Realistic%20Foliage/ModPage.html"
+			"mod_Page": "https://files.runemod.net/modhub/RuneFace/Realistic%20Foliage/ModPage.html",
+			"isUpdating": false
 		},
 		{
 			"mod_CreatorName": "RuneFace",
 			"mod_Name": "RFs TestMod",
 			"setting_LoadOrder": 10,
 			"setting_Loaded": false,
-			"mod_Page": "https://files.runemod.net/modhub/RuneFace/RFs%20TestMod/ModPage.html"
+			"mod_Page": "https://files.runemod.net/modhub/RuneFace/RFs%20TestMod/ModPage.html",
+			"isUpdating": false
 		}
 	]
 }
